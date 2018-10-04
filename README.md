@@ -36,6 +36,9 @@ robert.Bondikyan10
 Robert Bondikyan
 Facebook
 100000
+https://github.com/huandu/facebook.git
+
+https://github.com/facebook/facebook-android-sdk.git
 
 
 
