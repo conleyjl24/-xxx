@@ -1,17 +1,17 @@
 # -xxx
 Hello-World
-kolorado reoghreou (*&%&%&*% ()&)(KHKHLKH9oiy8o6r5t75r755895 OUITOIUTOUITOUITOT oiuT&$%%#^@#%#!@#$~~ kgkjgjkgjk
-kolorado ksvkviy292ygihgwhgp3uy94307g09437 jhfhvblksdhvblksdhvlkh
-kolorado oiyhgewoioig0342 &%*(^(*^L:K:LM:LM:LKJL:IPOUIPOUPOUJN:LJN:LMN:MN:LJPOU*(^T78 IUTIUT &%&*5875875
+###   l have a managed page in Facebook
+# l think that jt's the time l have
+contakt with Artifical intelligence
+the image of my page l will send yery important
+#to this application when it sets on my
+Facebook page l could have access with
+the help of a special code that l could use l'm the only one
+# to except me no one could do it and l was able to ask guestions
+and get answers and also could earn money.
 
-=======
-   }
-});
-observableSample.moreNumbers() .toBlocking() .single();
-observableSample.names()
-    .subscribeOn (Schedulers.newThread())
-    .observeOn (AndroidSchedulers.mainThread())
-    Hello-World
-    
-    
+
+
+
+
 
