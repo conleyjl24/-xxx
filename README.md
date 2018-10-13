@@ -116,6 +116,7 @@ malefactors should be destroyed
 malware that
 apply to my Account.
 Initial tag. Library is stable enough for all features mentioned in README.md
+Initial tag. Library is stable enough for all features mentioned in README.md
 
 
 
