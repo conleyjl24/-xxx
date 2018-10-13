@@ -23,6 +23,9 @@ index 2e5e471..7e61c23 100644
 +
 +
 git-clone
+https://github.com/AdmitHub/meteor-buildpack-horse.git
+git-clone
+
 
  
  
