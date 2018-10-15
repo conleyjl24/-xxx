@@ -180,6 +180,21 @@ index 8bf7c2f..19e04d9 100644
 +</noscript>
 +<!-- End Facebook Pixel Code -->
 
+{
+   "editor.renderWhitespace": "all",
+  
+  "html.format.wrapLinength": 0,
+  
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  
+  "jshint,options": {
+  
+    "esversion":6
+    
+    }
+    
+}
+ $1000
  
  
  
