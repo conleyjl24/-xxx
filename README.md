@@ -195,6 +195,10 @@ index 8bf7c2f..19e04d9 100644
     
 }
  $1000
+ Development of a web portal for interaction with Clients and business partners.
+•	Integration of existing web portals to the process/ workflow solutions.
+•	Enhancements and upgrades of existing SCM solutions.
+
  
  
  
