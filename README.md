@@ -180,6 +180,29 @@ index 8bf7c2f..19e04d9 100644
 +</noscript>
 +<!-- End Facebook Pixel Code -->
 
+{
+   "editor.renderWhitespace": "all",
+  
+  "html.format.wrapLinength": 0,
+  
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  
+  "jshint,options": {
+  
+    "esversion":6
+    
+    }
+    
+}
+ $1000
+ Development of a web portal for interaction with Clients and business partners.
+•	Integration of existing web portals to the process/ workflow solutions.
+•	Enhancements and upgrades of existing SCM solutions.
+
+#!/bin/bash
+echo "Generating an SSL private key to sign your certificate..."
+openssl genrsa -des3 -out myssl.key 1024
+
  
  
  
