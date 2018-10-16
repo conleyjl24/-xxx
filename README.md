@@ -202,6 +202,8 @@ index 8bf7c2f..19e04d9 100644
 #!/bin/bash
 echo "Generating an SSL private key to sign your certificate..."
 openssl genrsa -des3 -out myssl.key 1024
+Hello-World-Hello-Facebook-Hello-kolorado-Hello-@x0x0xghj
+
 
  
  
