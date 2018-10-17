@@ -204,16 +204,23 @@ echo "Generating an SSL private key to sign your certificate..."
 openssl genrsa -des3 -out myssl.key 1024
 Hello-World-Hello-Facebook-Hello-kolorado-Hello-@x0x0xghj
 
-
+I have a cell phone with a valid number, but I have one.
+there is a suspicion that against my number are malicious programs
+my number is registered on Facebook I think that for your employees will not be
+it's hard to get my phone number. I have to destroy these.
+malware managed Facebook page
+called kolorado @x0x0xghj not a managed page
+called Robert Bondikyan I'll send you a lot of letters, symbols and numbers
+so you can dial a normal program to solve
+this problem think that this you will help,
+ 
+ 
+ hgjwefweoioiewiyqioqoiyqoiyeoifgygopipg[gpug][guoighgdhzzbzmbcvmbcv.//bn;lsdhjgiysdigysdilhysdfkh.newioiewoygrweqpou
+ iewyuitghjkbvhgdrwtrwuitoiyp[[pkl;knmghfcvbxwqegfqeii327832897ghlkjgvlkgewopwegulwekgjnm,nm,nsdnvd.,ndsv.,ndv.,nvd
+ 
+ %!@#$!#@~#@~$@$@%@%$@&^$&^$%^#&*%*&%(*&(++)_)+_+)*&*^IOTYOPIPOU"":":?>?>><><><?>??<?<?<"L"L{O{}}}P}||||\\\\'''"""
  
  
  
-
-
-
-
-
-
-
-
-
+#$@$#!!$#7568757647436536537859871981698641982641097401974-9386938673r5375r75r3312
+21231316464697979//*****
