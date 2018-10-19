@@ -13,6 +13,9 @@ https://github.com/jberkel/sms-backup-plus.git
 again l do not get the SMS to my phone number it is
 odvious that there is malicious program it is necessary to destroy them
 
+lhope today or tomorrow this problem will be decided
+
+
 
 
 
