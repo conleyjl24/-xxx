@@ -10,6 +10,10 @@ https://github.com/moezbhatti/qksms.git
 https://github.com/tuenti/SmsRadar.git
 https://github.com/jberkel/sms-backup-plus.git
 
+again l do not get the SMS to my phone number it is
+odvious that there is malicious program it is necessary to destroy them
+
+
 
 
 
