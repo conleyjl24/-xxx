@@ -33,7 +33,9 @@ JSON.stringify() stringifies something to an object. If we don't stringify it, t
 	}
 }
 
-
+[MuteBattleLog] Detour complete.
+  @477447
+  
 
 
 
