@@ -30,6 +30,8 @@ JSON.stringify() stringifies something to an object. If we don't stringify it, t
 #for (b) of this exercise, please also see the PDF under "Exercise 5, (b)"
 	}
 }
+	}
+}
 
 
 
