@@ -12,6 +12,10 @@ PolyfillSection
 qw
 eq
 e
+ '@media: max-resolution':
+  	prefix: 'Platframe: max-resolution'
+  	body: '+max-res($1dppx)'
+    
 
  
   
