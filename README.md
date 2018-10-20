@@ -16,6 +16,9 @@ e
   	prefix: 'Platframe: max-resolution'
   	body: '+max-res($1dppx)'
     https://github.com/huandu/facebook.git
+    you iust showed me the key key-ssn but l forgot to copy
+    you can show me again to l copied and was able to scratch the itch
+    
     
     
 
