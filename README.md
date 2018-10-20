@@ -28,6 +28,9 @@ fs.writeFileSync("./scores.json", JSON.stringify(scores));
 JSON.stringify() stringifies something to an object. If we don't stringify it, the file would be [object Object]
 #for histograms, please see the PDF under "Exercise 5, (a)"
 #for (b) of this exercise, please also see the PDF under "Exercise 5, (b)"
+	}
+}
+
 
 
 
