@@ -42,6 +42,11 @@ plt.xlabel('x')
  plt.show()
  @@ -373,6 +373,81 @@ EnhancedDevelopment.Embrasures.Patcher(): Complete.
  [HugsLib] v6.0.1 initialized MapReroll
+ @@ -444,6 +444,103 @@ function startLevel(map) {
+function validateLevel(map) {
+    map.validateExactlyXManyObjects(1, 'exit');
+}
+
  
  
 
