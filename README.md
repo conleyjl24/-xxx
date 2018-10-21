@@ -48,6 +48,10 @@ for div in soup.find_all('div',{'class':'content'}):
 <h1>Test</h1>
    return ret;
 }
+@@ -183,6 +183,198 @@ map.placeObject(map.getWidth() - 25, 15, 'exit');
+     map.placeObject(map.getWidth() - 5, 5, 'exit');
+}
+
 
 
 
