@@ -41,6 +41,10 @@ WantedBy=multi-user.target
 plt.show()
 {"lastUpload":"2018-10-21T11:11:52.514Z","extensionVersion":"v3.2.0"}
 
+for div in soup.find_all('div',{'class':'content'}):
+    print(div.text.strip())
+    
+
 
 
 
