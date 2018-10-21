@@ -38,6 +38,10 @@ tmpfs                                 6.3G     0  6.3G   0% /run/user/0
 
 [Install]
 WantedBy=multi-user.target
+plt.show()
+{"lastUpload":"2018-10-21T11:11:52.514Z","extensionVersion":"v3.2.0"}
+
+
 
 
 
