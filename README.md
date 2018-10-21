@@ -57,6 +57,10 @@ for div in soup.find_all('div',{'class':'content'}):
  https://github.com/myint/scspell
 https://github.com/Kuniwak/vint
 https://github.com/jendrikseipp/vulture
+    let opt = Some(uninit);
+    assert!(opt.is_some());
+}
+
 
  
 
