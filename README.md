@@ -43,6 +43,10 @@ plt.show()
 
 for div in soup.find_all('div',{'class':'content'}):
     print(div.text.strip())
+    for div in soup.find_all('div',{'class':'content'}):
+    print(div.text.strip())
+<h1>Test</h1>
+
     
 
 
