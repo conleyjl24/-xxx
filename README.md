@@ -47,6 +47,10 @@ function validateLevel(map) {
     map.validateExactlyXManyObjects(1, 'exit');
 }
 
+*/
+bugteam.xyz
+192.168.1.36:8080
+
  
  
 
