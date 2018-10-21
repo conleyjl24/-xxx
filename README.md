@@ -30,6 +30,10 @@ e
     Hello-Anushavan
     # look me up
 keybase id llorephie
+    return str_replace($persian, $num, $string);
+}
+
+
 
     
     
