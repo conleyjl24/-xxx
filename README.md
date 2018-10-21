@@ -24,6 +24,8 @@ e
     
     the source of the different satellites That's possible
     https://github.com/wealthbot-io/wealthbot.git
+    #262-#264-#263
+    
     
     
     
