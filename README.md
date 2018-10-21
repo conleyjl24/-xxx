@@ -54,6 +54,10 @@ for div in soup.find_all('div',{'class':'content'}):
 }
  
  @477447
+ https://github.com/myint/scspell
+https://github.com/Kuniwak/vint
+https://github.com/jendrikseipp/vulture
+
  
 
 
