@@ -36,6 +36,8 @@ keybase id llorephie
 209.41.67.180:/opt/minecraft/backup2  1.9T  1.7T  129G  94% /opt/backups
 tmpfs                                 6.3G     0  6.3G   0% /run/user/0
 
+[Install]
+WantedBy=multi-user.target
 
 
 
