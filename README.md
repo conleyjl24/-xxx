@@ -38,6 +38,9 @@ tmpfs                                 6.3G     0  6.3G   0% /run/user/0
 
 [Install]
 WantedBy=multi-user.target
+plt.xlabel('x')
+ plt.show()
+ 
 
 
 
