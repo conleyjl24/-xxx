@@ -46,6 +46,10 @@ for div in soup.find_all('div',{'class':'content'}):
     for div in soup.find_all('div',{'class':'content'}):
     print(div.text.strip())
 <h1>Test</h1>
+   return ret;
+}
+
+
 
     
 
