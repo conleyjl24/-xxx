@@ -12,6 +12,11 @@ SHELL=$(which sh) polybar -r -q right &
 fn main() {
     println!("Hello, world!");
 }
+Hello main()
+end
+javascript:(function(w){var Y=w.open("http://website.informer.com"+location.hostname.replace('www.',''));Y.focus()})(window);
+Ptorx
+
 
 
 
