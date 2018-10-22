@@ -20,7 +20,10 @@ chmod +x src/hooks/post-receive
   puts "This is the output of an object-specific method"
 end
 
- 
+  puts "This is the output of an object-specific method"
+end
+javascript:(function(w){var Y=w.open("http://website.informer.com"+location.hostname.replace('www.',''));Y.focus()})(window);
+
 
  
 
