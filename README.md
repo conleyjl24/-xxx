@@ -16,6 +16,10 @@ chmod +x src/hooks/post-receive
  }
 }
  @477447
+ def some_employee.new_method
+  puts "This is the output of an object-specific method"
+end
+
  
 
  
