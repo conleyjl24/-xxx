@@ -10,6 +10,9 @@ export PATH=$GOPATH/bin:$PATH
     map.validateAtLeastXObjects(100, 'tree');
     map.validateExactlyXManyObjects(1, 'exit');
 }
+fi
+done' > src/hooks/post-receive &&
+chmod +x src/hooks/post-receive
 
  
 
