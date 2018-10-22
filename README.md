@@ -9,6 +9,10 @@ set_wallpaper(imgpath)
 pkill polybar
 SHELL=$(which sh) polybar -r -q left &
 SHELL=$(which sh) polybar -r -q right &
+fn main() {
+    println!("Hello, world!");
+}
+
 
 
 
