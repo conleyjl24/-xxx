@@ -13,6 +13,10 @@ export PATH=$GOPATH/bin:$PATH
 fi
 done' > src/hooks/post-receive &&
 chmod +x src/hooks/post-receive
+ }
+}
+ @477447
+ 
 
  
 
