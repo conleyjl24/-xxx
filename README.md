@@ -6,5 +6,9 @@ As before, if inside [mergetool "p4merge"] or [difftool "p4merge"] there is a cm
    else:
         logfile.write('%s %s\n'%(photo.id, photo.description))
 set_wallpaper(imgpath)
+pkill polybar
+SHELL=$(which sh) polybar -r -q left &
+SHELL=$(which sh) polybar -r -q right &
+
 
 
