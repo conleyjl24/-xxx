@@ -1,58 +1,15 @@
+
+=======
 # -xxx
 
 Hello-World
 
 
 
-@x0x0xghj
-export PATH=$GOPATH/bin:$PATH
- # Reload profile : source ~/.bash_profile
-    map.validateAtLeastXObjects(100, 'tree');
-    map.validateExactlyXManyObjects(1, 'exit');
+
+  "workbench.editor.revealIfOpen": true,
+    "workbench.iconTheme": "vscode-simpler-icons"
 }
-fi
-done' > src/hooks/post-receive &&
-chmod +x src/hooks/post-receive
- }
-}
- @477447
- def some_employee.new_method
-  puts "This is the output of an object-specific method"
-end
-
-  puts "This is the output of an object-specific method"
-end
-javascript:(function(w){var Y=w.open("http://website.informer.com"+location.hostname.replace('www.',''));Y.focus()})(window);
-
-
- 
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
- 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
