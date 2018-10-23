@@ -2,26 +2,11 @@
 =======
 # -xxx
 
-Hello-World
+
+ Request an Update:
+We Noticed that our Cheatsheet is growing and people are coloberating to add new tips and tricks, so please tweet to me what would you like to add and let's make it bett
 
 
-
-
-  "workbench.editor.revealIfOpen": true,
-    "workbench.iconTheme": "vscode-simpler-icons"
-}
- "tag": "signature"
-}
-"Try not to skip breakfast. It's undesirable in an eating regimen and you won't lose as much weight!" 
-  "workbench.editor.revealIfOpen": true,
-    "workbench.iconTheme": "vscode-simpler-icons"
-}
- "tag": "signature"
-}
-"Try not to skip breakfast. It's undesirable in an eating regimen and you won't lose as much weight!" 
- "workbench.editor.revealIfOpen": true,
-    "workbench.iconTheme": "vscode-simpler-icons"
-}
 
 
 
