@@ -25,6 +25,13 @@ git commit -m "my snapshot"
  # push changes to github
  git push --set-upstream origin ny-branch
  
+#you need a lot of subscribers
+on my pages for example 1000
+
+#or 10000 subscribers or
+one hundred thousand
+
+#subscribers'
 
 
 
