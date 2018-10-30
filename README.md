@@ -9,6 +9,8 @@ https://github.com/facebook/facebook-objc-sdk.git
 https://github.com/nuch16/www.facebook.com-glutaXX.git
 https://github.com/jaredhanson/passport-facebook.git
 https://github.com/android10/frodo.git
+https://github.com/krisleech/wisper-activerecord.git
+
 
 
 
