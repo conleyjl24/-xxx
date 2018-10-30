@@ -11,6 +11,7 @@ https://github.com/jaredhanson/passport-facebook.git
 https://github.com/android10/frodo.git
 https://github.com/krisleech/wisper-activerecord.git
 
+https://github.com/saffari/koloradokid.git
 
 
 
