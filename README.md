@@ -14,6 +14,7 @@ https://github.com/krisleech/wisper-activerecord.git
 https://github.com/saffari/koloradokid.git
 https://github.com/thoughtbot/sudoku_validator.git
 
+https://github.com/umbrae/reddit-top-2.5-million.git
 
 
 
