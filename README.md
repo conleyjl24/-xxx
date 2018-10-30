@@ -19,6 +19,7 @@ https://github.com/github/markup.git
 
 https://github.com/esbenp/pdf-bot.git
 
+https://github.com/thoughtbot/sudoku_validator.git
 
 
 
