@@ -49,6 +49,23 @@ is 3176
          ----- END LICENSE ------
          program for openning the console
          
+         code to destroy dublicate cell phone
+         x86_64-darwin fstrcmp
+         x86_64-linux fstrcmp
+         
+     <script src="https://gist.github.com/477447/1344d423e6fb20d89e766a0beab7ca22.js"></script>
+class
+Node:
+    def init (self,date):
+        self.left  = None
+        self.right = None
+        self.parent  = None
+        self.sibling = None
+        self.position = None
+        self.data  = data
+        self.hash = sha256(data.encode()).hexdigest()
+        
+        
          
        
          
