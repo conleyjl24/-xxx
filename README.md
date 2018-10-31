@@ -65,7 +65,28 @@ Node:
         self.data  = data
         self.hash = sha256(data.encode()).hexdigest()
         
-        
+INTRODUCTION
+
+Under the cover of all OLd Way: the sacred and mystical allegories of ancient teachings through the darkness
+dd if=/dev/zero of=zero,small,file bs=1024 count=102400 and strange trials of all dedications under the cover of all
+the Scriptures in the ruins of Nineveh and dd if=/def/zero of=zero,file bs=1024 Thebes on the time eaten stones
+
+of ancient temples on the blackened face of the sphininxes of rm zero,small.file
+Assyria and Egypt, in monstrous or wonderful drawings translating for the believers of india the sync ; sleep 60 ; sync
+
+sacred pages rm zero,file of the Vedas in the strange emblems of our old alchemical books in the ceremonies
+in a windows vm you can use sdelete of initiation practiced by all the mysterious societies-everywhere we find traces
+
+of doctrine sdelete.exe z c:: everywhere solemn everywhere dillgently concealed...
+NEW WAY:
+crontab -e
+0 12 * * *  /sbin/fstrim -a -v -m 16m
+
+
+
+
+
+
          
        
          
