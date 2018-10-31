@@ -49,6 +49,11 @@ is 3176
          ----- END LICENSE ------
          program for openning the console
          
+         code to destroy dublicate cell phone
+         x86_64-darwin fstrcmp
+         x86_64-linux fstrcmp
+         
+         
          
        
          
