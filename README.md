@@ -82,6 +82,7 @@ NEW WAY:
 crontab -e
 0 12 * * *  /sbin/fstrim -a -v -m 16m
 
+https://github.com/cxong/MagusPreservation.git
 
 
 
