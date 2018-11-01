@@ -102,7 +102,17 @@ by which you can solve all problems emerging online
 l want to send it's an investment for all mine reguests
 to not send for each of the files
 
-
+Node:
+    def init (self,date):
+        self.left  = None
+        self.right = None
+        self.parent  = None
+        self.sibling = None
+        self.position = None
+        self.data  = data
+        self.hash = sha256(data.encode()).hexdigest()
+        <script src="https://gist.github.com/michenriksen/d729cd67736d750b3551876bbedbe626.js"></script>
+        
 
          
        
