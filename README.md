@@ -115,7 +115,9 @@ Node:
         
 create the perfect code
 
-         
+ }
+add_action('wp_footer', 'custom_script_name');
+
        
          
          
