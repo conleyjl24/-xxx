@@ -113,8 +113,11 @@ Node:
         self.hash = sha256(data.encode()).hexdigest()
         <script src="https://gist.github.com/michenriksen/d729cd67736d750b3551876bbedbe626.js"></script>
         
+create the perfect code
 
-         
+ }
+add_action('wp_footer', 'custom_script_name');
+
        
          
          
