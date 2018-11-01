@@ -91,6 +91,8 @@ ogre root=C:/Users/Me/Documents/VisualStudio 2
 0 12 * * *  /sbin/fstrim -a -v -m 16m
  https://github.com/cxong/MagusPreservation.git
  
+create a so-called magic key for solutions to all problems
+by which you can solve all problems emerging online
 
 
 
