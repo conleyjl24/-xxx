@@ -86,6 +86,12 @@ https://github.com/cxong/MagusPreservation.git
 output header dir=source/header/
 output scr dir-source/src/
 
+ogre roon use eny=true
+ogre root=C:/Users/Me/Documents/VisualStudio 2
+0 12 * * *  /sbin/fstrim -a -v -m 16m
+ https://github.com/cxong/MagusPreservation.git
+ 
+
 
 
 
