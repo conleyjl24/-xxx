@@ -99,6 +99,8 @@ to not send for each of the files
 create a so-called magic key for solutions to all problems
 by which you can solve all problems emerging online
 
+l want to send it's an investment for all mine reguests
+to not send for each of the files
 
 
 
