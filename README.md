@@ -129,6 +129,11 @@ create the perfect code
     Aristotle would excited
     about this code
     Hello-main()-Hello-main():4
+    class
+    Node:
+    def init(self,date):
+    self.left = None
+    
     
     
     
