@@ -117,6 +117,8 @@ create the perfect code
 
  }
 add_action('wp_footer', 'custom_script_name');
+create the perfect code
+
 
        
          
