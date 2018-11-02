@@ -118,6 +118,28 @@ create the perfect code
  }
 add_action('wp_footer', 'custom_script_name');
 create the perfect code
+  }
+  add action('wp footer', 'custom script name');
+  }
+  add_action('wp footer', 'custom_script_name');
+  create the perfect code
+  }
+    add_action('wp footer', 'custom script_name');
+    create the perfect code
+    Aristotle would excited
+    about this code
+    Hello-main()-Hello-main():4
+    class
+    Node:
+    def init(self,date):
+    self.left = None
+    
+    
+    
+    
+  
+  
+
 
 
        
