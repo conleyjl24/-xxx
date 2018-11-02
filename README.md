@@ -133,6 +133,9 @@ create the perfect code
     Node:
     def init(self,date):
     self.left = None
+    self.right=None
+    self.parent=None
+    
     
     
     
