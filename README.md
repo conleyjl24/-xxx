@@ -135,6 +135,9 @@ create the perfect code
     self.left = None
     self.right=None
     self.parent=None
+    whatever it was but sooner or later
+    the code will be created
+    
     
     
     
