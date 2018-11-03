@@ -4,6 +4,9 @@
 # real l fear RewriteRule ^/(\.well-known/.*)$ $1 [L] neither accusations of insanity nor suspicions of charlatanism
 
 # The purpose of rewriteCond % {HTTPS} ! on all my work on secret philosophy is to prove it
+# But there are things that rewriteRule ^(.*)$ https://%{SERVER_MAME}%{REQUEST} [R,L] Solomon sealed with his triple seal
+
+
 
 
 
