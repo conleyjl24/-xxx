@@ -5,4 +5,12 @@
 # fraudster's email or credit name cards of this scammer hope that your employees will not be difficult to find out!
 # <<*^find>>*
 
+# const app
+# =
+# express();
+# const port = process.end.PORT || 5000;
+# AWS.config.update({region: ' eu-west-1'});// Set the region that you configured
+# in AWS
+
+
 
