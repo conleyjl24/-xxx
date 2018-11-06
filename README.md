@@ -19,6 +19,18 @@ print!("{}",match count{
 # @include grid-template-areas
 # @477447
 
+# # sp := 0
+# $LShift::
+<Shift::
+# TooITip, %sp%
+#   lf(sp ==1){
+#     Send, {LShift Up}
+#     sp = 0 
+# return
+# }
+# if(sp==0){
+
+
 
 
 
