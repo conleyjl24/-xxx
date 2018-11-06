@@ -27,6 +27,7 @@
 # problems and syphilis will be cured.
 # to find discrepancies
 # and tell me what's wrong))
+# CODE_OF_CONDUCT.md
 
 
 
