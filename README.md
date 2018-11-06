@@ -40,6 +40,12 @@ print!("{}",match count{
 # That which is above,is like that which is below and that which is
 # like that which is above (i e. similar to what is above).
 
+# Around this book which can be called the key to the body of all knowledge of the secret Sciences
+# there are countless legends which are either a partial translantion of it or constantly renewed under a
+
+# thousand different forms of commentary
+
+
 
 
 
