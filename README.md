@@ -29,6 +29,13 @@ print!("{}",match count{
 # return
 # }
 # if(sp==0){
+#   Send, {LShift Down}
+#    sp = 1
+#    return
+#   }
+# return
+# return
+
 
 
 
