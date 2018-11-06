@@ -23,6 +23,9 @@
 # Gemfile
 # source 'https://rudygems.org'
 # gem 'github-pages'
+# Jekyll will eliminate all
+# problems and syphilis will be cured.
+
 
 
 
