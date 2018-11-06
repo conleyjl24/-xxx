@@ -20,6 +20,10 @@
 #      procd_set_param respawn
 #      procd_close_instance
 #    }
+# Gemfile
+# source 'https://rudygems.org'
+# gem 'github-pages'
+
 
 
 
