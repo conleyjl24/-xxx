@@ -29,6 +29,9 @@
 # and tell me what's wrong))
 # CODE_OF_CONDUCT.md
 
+# "one".to int # => nil
+# "something 5 else".to int # => nil
+# "50 green apples".to int # => nil
 
 
 
