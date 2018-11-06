@@ -45,6 +45,18 @@ print!("{}",match count{
 
 # thousand different forms of commentary
 
+# !/bin/sh/etc/rc.common
+# Copyright (C) 2018 nanpuyue <nanpuyue@gmail.com>
+# START=95
+# USE_PROCD=1
+# start service(){
+#      procd_open_instance
+#      procd_set_param command/usr/bin/frpc - c /ets/frp/frpc.ini
+#      procd_set_param respawn
+#      procd_close_instance
+#    }
+
+
 
 
 
