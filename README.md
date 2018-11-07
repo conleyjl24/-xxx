@@ -6,6 +6,15 @@
 # The submodule is in a public repository. The GitHub Pages server cannot build from 
 # submodules in private repositories.
 
+# using
+# Unity.Entities;
+# [InternalBufferCapacity(16)]
+# public struct EntityBuffer: IBufferElementData
+# {
+#   public Entity entity;
+# }
+
+
 
 
 
