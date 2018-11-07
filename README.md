@@ -14,6 +14,8 @@
 #   public Entity entity;
 # }
 # 'ssh-rsa'
+# 'ssh-ed25519'
+
 
 
 
