@@ -11,3 +11,6 @@ Build fail example: timezone:Africa/Nairobi.
 # Correct example: title: "my awesome site: an adventure in parse errors"
 # Build fail example: title: my awesome site: an adventure in parse errors
 
+# Find the line that stars with highlighter: and change the value to rouge.
+
+
