@@ -32,6 +32,10 @@
 # "one".to int # => nil
 # "something 5 else".to int # => nil
 # "50 green apples".to int # => nil
+# Guid AnnonceGuid {
+# get; set; }
+# DateIimeoffset DateDebut { get; set;}
+
 
 
 
