@@ -6,21 +6,7 @@
 
 #   "tag": "signature"
 #    }
-# you can edit this file))
-# so I can read))
-# -- call on "def" wouldn't be executed until "fed" is at the front (the last
-# -- step there). Or at least that would be the case without printing it.
-# @477447
 
-# language: ruby
-# rvm:
-# - 2.1
-# script: "bundle exec jekyll build"
-
-
-
-
-  
   
 
 
