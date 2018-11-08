@@ -12,6 +12,12 @@
 # -- step there). Or at least that would be the case without printing it.
 # @477447
 
+# language: ruby
+# rvm:
+# - 2.1
+# script: "bundle exec jekyll build"
+
+
 
 
   
