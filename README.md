@@ -1,9 +1,10 @@
 # -xxx
 
-# when all the work is GitHub will start 
-# working correctly you can answer me?
 
-
+[my <FILENAME>.0 /system/etc/security/cacerts/]
+  [chmod 644 <FILENAME>.0]
+  
+  
 
 
 
