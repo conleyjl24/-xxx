@@ -14,6 +14,14 @@
 # rvm:
 # -2.1
 # script: "bundle exec jekyll build"
+2. Trigger with condition (e.g. CellMenuBase)
+x ~~ () => false ~~~> y
+
+	fmt.Println(time.Since(start))
+}
+ @477447
+ 
+
 
 
 
