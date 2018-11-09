@@ -14,6 +14,9 @@ tmpfs                               6. 3G   0  6.3G  0% /run/user/0
 let name = prompt("What is your name?");
 alert("Hello, " + name + "!");
 </script>
+android:layout_height="match_parent"
+		android:id="@+id/gridView1" />
+    
 
 
 
