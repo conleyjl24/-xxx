@@ -17,6 +17,11 @@
 2. Trigger with condition (e.g. CellMenuBase)
 x ~~ () => false ~~~> y
 
+	fmt.Println(time.Since(start))
+}
+ @477447
+ 
+
 
 
 
