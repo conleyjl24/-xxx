@@ -29,6 +29,14 @@ preserve host:true
 
 # <botton (click) = "onItemSelected (exerciseItem.id)" > {{exerciseItem.name}} </ button >
 
+# int MarPk {get; set;}
+# string Libelle {get;set;}
+# string Code {get;set;}
+# boolEstlnterne {get;set;}
+
+# }
+
+
 
 
 
