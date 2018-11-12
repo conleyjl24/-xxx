@@ -14,6 +14,18 @@ rouge
 config.yml
 highlighter: rouge.
 
+apiVersion:configuration.konghg.com/v1
+kind:Konglngress
+metadata:
+name:drone-drone
+labels:
+app:drone
+component:server
+release:drone
+route:
+preserve host:true
+
+
 
 
 
