@@ -25,6 +25,7 @@ release:drone
 route:
 preserve host:true
 
+<botton (click) = "onItemSelected (exerciseItem.id)" > {{exerciseItem.name}} </ button >
 
 # <botton (click) = "onItemSelected (exerciseItem.id)" > {{exerciseItem.name}} </ button >
 
