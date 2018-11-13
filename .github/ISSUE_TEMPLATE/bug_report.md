@@ -37,5 +37,10 @@ Add any other context about the problem here.
   console.log ("you can't compare those");
 };
  @477447
-      return tx,Hash(), nil
+      return tx,Hash(), nil# 
+      
         }
+        
+# you can remove from this template
+# what l did wrong is possible in the commits
+
