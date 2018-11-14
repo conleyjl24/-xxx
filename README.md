@@ -40,6 +40,19 @@ preserve host:true
 </html>
 @477447
 jekyll
+#700
+Default
+
+
+https://github.com/jekyll/jekyll.git
+android;name="android.support.FILE PROVIDER PATHS"
+android;resource="@xml/file paths"/>
+</provider>
+
+$ args ['include'] = '62, 63 ';
+return $ args;
+}
+
 
 
 
