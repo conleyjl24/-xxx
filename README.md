@@ -41,6 +41,7 @@ preserve host:true
 @477447
 jekyll
 
+https://github.com/jekyll/jekyll.git
 
 
 
