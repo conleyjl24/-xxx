@@ -49,6 +49,11 @@ android;name="android.support.FILE PROVIDER PATHS"
 android;resource="@xml/file paths"/>
 </provider>
 
+$ args ['include'] = '62, 63 ';
+return $ args;
+}
+
+
 
 
 
