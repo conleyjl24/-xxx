@@ -33,15 +33,3 @@ If applicable, add screenshots to help explain your problem.
 
 **Additional context**
 Add any other context about the problem here.
-# 'ssh-ed25519'
-  console.log ("you can't compare those");
-};
- @477447
-      return tx,Hash(), nil# 
-      
-        }
-        
-# you can remove from this template
-# what l did wrong is possible in the commits
-
-
