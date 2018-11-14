@@ -53,7 +53,10 @@ $ args ['include'] = '62, 63 ';
      return $ args;
   }
   --verbose.
-  
+ sudo b43-fwcutter -w "$FIRMWARE_INSTALL_DIR" broadcom-wl-5.100.138/linux/wl_apsta.o
+echo 'modprobe b43' > /etc/sysconfig/modules/b43.modules
+chmod +x /etc/sysconfig/modules/b43.modules
+
 
 
 
