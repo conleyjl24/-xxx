@@ -17,6 +17,8 @@ work and mirror of God proof of the existence of a higher mind the exact consegu
 causes us to ascend to the first possible premises a riddle whose answer is God i e the
 
 Supreme and absolute mind.
+#742
+
 
 
 
