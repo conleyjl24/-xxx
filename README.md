@@ -1,72 +1,23 @@
-train op = tf,train.AdamOptimizer(learning rate = lr). minimize(loss)
 
-# Intialize the network
+# 1."Keter"-The crown is a balancing force.
+# 2.Hochma-Wisdom balanced in its unchangeable order by the initiative of
+# 3.Bina-An active mind balanced by wisdom
+# 4.Hezed-Mercy the second concept of wisdom is always favorable
+# 5.Gebura-Rigor the inevitable existence of which is due to wisdom and
+# 6.TiFERET-Beautty is a radiant concept of balance in forms the transition from
+# 7.Netz-Victory i e eternal triumph of reason and justice
+# 8.Year-The eternity of the conguests achieved by mind over matter active over
+# 9.Jesod-The basis i e the basis of all beliefs and truths is what we call the
+# 10.Malchut or Malkut (Malkout)-The Kingdom is the universe all creation is the
+# work and mirror of God proof of the existence of a higher mind the exact conseguence that
+# causes us to ascend to the first possible premises a riddle whose answer is God i e the
+# Supreme and absolute mind.
 
-init = tf,global variables initializer()
+work and mirror of God proof of the existence of a higher mind the exact conseguence that
+causes us to ascend to the first possible premises a riddle whose answer is God i e the
 
-timezone: Africa/Nairobi
-timezone:Africa/Nairobi
+Supreme and absolute mind.
 
-title: "my awesome site: an adventure in parse
-errors"
-
-rouge
-config.yml
-highlighter: rouge.
-
-apiVersion:configuration.konghg.com/v1
-kind:Konglngress
-metadata:
-name:drone-drone
-labels:
-app:drone
-component:server
-release:drone
-route:
-preserve host:true
-
-<botton (click) = "onItemSelected (exerciseItem.id)" > {{exerciseItem.name}} </ button >
-
-# <botton (click) = "onItemSelected (exerciseItem.id)" > {{exerciseItem.name}} </ button >
-
-# int MarPk {get; set;}
-# string Libelle {get;set;}
-# string Code {get;set;}
-# boolEstlnterne {get;set;}
-
-# }
-# Magic differs from mysticism to those that judge a priori only a posteriori by setting pre-the basis of
-</body>
-</html>
-@477447
-jekyll
-#700
-Default
-
-
-https://github.com/jekyll/jekyll.git
-android;name="android.support.FILE PROVIDER PATHS"
-android;resource="@xml/file paths"/>
-</provider>
-
-$ args ['include'] = '62, 63 ';
-     return $ args;
-  }
-  --verbose.
- sudo b43-fwcutter -w "$FIRMWARE_INSTALL_DIR" broadcom-wl-5.100.138/linux/wl_apsta.o
-echo 'modprobe b43' > /etc/sysconfig/modules/b43.modules
-chmod +x /etc/sysconfig/modules/b43.modules
-
-
-
-
-
-
-
-
-
-
-  
 
 
 
