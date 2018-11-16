@@ -17,3 +17,40 @@ work and mirror of God proof of the existence of a higher mind the exact consegu
 causes us to ascend to the first possible premises a riddle whose answer is God i e the
 
 # jekyll
+
+#     This file is used as an issue template.
+#   name                   about
+# Bug report              Create a report to help us improve
+# Describe the bug A clear and concise description of what the bug is.
+
+# To Reproduce Steps to reproduce the behavior:
+
+#     1. Go to ...
+#     2. Click on ...
+#     3. Scroll down to ...
+#     4. See error
+
+# Expected behavior A clear and concise description of what you expected to happen.
+
+# Screenshots If applicable, abb screenshots to help explain your problem.
+
+# Desktor(please complete the following information):
+
+# . OS: [e.g iOS]
+# . Browser [e.g chrome, safari]
+# . Version [e.g.22]
+
+# Ssmartphone(please comlete the following information):
+
+#    .  Device:[e.g iPhone6]
+#    .  OS:[e.g.iOS8.1]
+#    .  Browser[e.g. stock browser, safari]
+#    .  Version[e.g.22]
+
+# Additional context Add any other context about the problem here.
+
+# story.txt amesropyan61@yandex.ru jekyll
+
+
+
+
