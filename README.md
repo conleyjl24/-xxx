@@ -82,4 +82,6 @@ causes us to ascend to the first possible premises a riddle whose answer is God 
 # Include
 # using namespace std; # const int stringMaximumSize = 100;
 
+# class BookInStock < StandardError
+# attr accessor :isbn, :price
 
