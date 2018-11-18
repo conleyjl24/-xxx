@@ -70,6 +70,8 @@ causes us to ascend to the first possible premises a riddle whose answer is God 
 # Gist description
 # Filename including
 
+# story.txt amesropyan61@yandex.ru jekyll
+# jekyll-477447
 
 
 
