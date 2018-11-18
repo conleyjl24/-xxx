@@ -79,5 +79,7 @@ causes us to ascend to the first possible premises a riddle whose answer is God 
   # using namespace std;
   # const int stringMaximumSize = 100;
   
+# Include
+# using namespace std; # const int stringMaximumSize = 100;
 
 
