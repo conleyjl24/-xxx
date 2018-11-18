@@ -89,3 +89,8 @@ causes us to ascend to the first possible premises a riddle whose answer is God 
 # Out[39]:
 # In [ ]:
 
+# creating magic code which after a while
+# converted to modules used by many programmers
+
+# Os:[e.g.iOS]
+
