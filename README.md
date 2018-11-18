@@ -85,3 +85,7 @@ causes us to ascend to the first possible premises a riddle whose answer is God 
 # class BookInStock < StandardError
 # attr accessor :isbn, :price
 
+# map toronto
+# Out[39]:
+# In [ ]:
+
