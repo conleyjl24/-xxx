@@ -1,6 +1,7 @@
 ---
 name: Bug report
 about: Create a report to help us improve
+labels: 
 
 ---
 
@@ -36,4 +37,3 @@ Add any other context about the problem here.
 story.txt
 amesropyan61@yandex.ru
 jekyll
-
