@@ -73,6 +73,11 @@ causes us to ascend to the first possible premises a riddle whose answer is God 
 # story.txt amesropyan61@yandex.ru jekyll
 # jekyll-477447
 
-
+# include "stdafx.h"
+# include <iostream>
+# include <string>
+  # using namespace std;
+  # const int stringMaximumSize = 100;
+  
 
 
