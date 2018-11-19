@@ -94,5 +94,3 @@ causes us to ascend to the first possible premises a riddle whose answer is God 
 
 # Os:[e.g.iOS]
 
-# {"lastUpload":"2018-11-19T10:13:23.126Z","extensionVersion":"v3.2.0"}
-
