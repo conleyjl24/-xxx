@@ -93,6 +93,5 @@ causes us to ascend to the first possible premises a riddle whose answer is God 
 # converted to modules used by many programmers
 
 # Os:[e.g.iOS]
-# jekyll
 
 
