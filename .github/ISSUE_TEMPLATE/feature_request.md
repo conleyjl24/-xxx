@@ -21,3 +21,13 @@ Add any other context or screenshots about the feature request here.
 
 # need to create modules
 # from any file
+
+# def delete first(self):
+#   deleted=self.head
+#   if self.head:
+#      self.head:
+#          self.head=self.head.next
+#          deleted.next=None
+#         return deleted
+
+# jekyll
