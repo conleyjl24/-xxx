@@ -93,7 +93,5 @@ causes us to ascend to the first possible premises a riddle whose answer is God 
 # converted to modules used by many programmers
 
 # Os:[e.g.iOS]
-# 3.8-stable
-# config-for-jekyll-env
-# the--knight-is-the-winner
+
 
