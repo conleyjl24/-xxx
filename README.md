@@ -98,3 +98,7 @@ causes us to ascend to the first possible premises a riddle whose answer is God 
 # end
 # jekyll
 
+# Open Source Guides (https://opensource.guide/) are a collection of resources for individuals,
+# communities, and companies who want to learn how to run and contribute to an open source
+# project.
+
