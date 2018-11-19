@@ -94,10 +94,3 @@ causes us to ascend to the first possible premises a riddle whose answer is God 
 
 # Os:[e.g.iOS]
 
-# Properties(
-#  id int NOT NULL PRIMARY,
-# location id FORElGN KEY REFERENCES Locations(id),
-# rentint,
-# created at date
-# )
-
