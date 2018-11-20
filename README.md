@@ -1,100 +1,38 @@
+name: Custom issue template
+about: Describe this issue template's purpose here.
+labels:
+•	Version 
+•	Contact Support
+•	Return to GitHub
+Collaborating with issues and pull requests / About pull requests
+ 
+About pull requests
+Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
+Note: When working with pull requests, keep the following in mind:
+•	If you're working in the shared repository model, we recommend that you use a topic branch for your pull request. While you can send pull requests from any branch or commit, with a topic branch you can push follow-up commits if you need to update your proposed changes.
+•	When pushing commits to a pull request, don't force push. Force pushing can corrupt your pull request.
+After initializing a pull request, you'll see a review page that shows a high-level overview of the changes between your branch (the compare branch) and the repository's base branch. You can add a summary of the proposed changes, review the changes made by commits, add labels, milestones, and assignees, and @mention individual contributors or teams. For more information, see "Creating a pull request."
+ 
+Once you've created a pull request, you can push commits from your topic branch to add them to your existing pull request. These commits will appear in chronological order within your pull request and the changes will be visible in the "Files changed" tab.
+Other contributors can review your proposed changes, add review comments, contribute to the pull request discussion, and even add commits to the pull request.
+You can see information about the branch's current deployment status and past deployment activity on the "Conversation" tab. For more information, see "Viewing deployment activity for a repository."
+After you're happy with the proposed changes, you can merge the pull request. If you're working in a shared repository model, the proposed changes will be merged from the head branch to the base branch that was specified in the pull request. For more information, see "Merging a pull request."
+If status checks are required for a repository, the required status checks must pass before you can merge your branch into the protected branch. For more information, see "About required status checks."
+You can close corresponding issues using a keyword in your pull request or commit message. For more information, see "Closing issues using keywords."
+Tips:
+•	To toggle between collapsing and expanding all outdated review comments in a pull request, hold down alt and click Show outdated or Hide outdated. For more shortcuts, see "Using keyboard shortcuts."
+•	You can squash commits when merging a pull request to gain a more streamlined view of changes. For more information, see "About pull request merges."
+You can visit your dashboard to quickly find links to recently updated pull requests you're working on or subscribed to. For more information, see "About your personal dashboard."
+Further reading
+•	"Pull request" in the GitHub Glossary
+•	"About branches"
+•	"Commenting on a pull request"
+•	"Merging a pull request"
+•	"Closing a pull request"
+•	"Deleting unused branches"
+•	"About pull request merges"
+•	 Contact a human
 
-# 1."Keter"-The crown is a balancing force.
-# 2.Hochma-Wisdom balanced in its unchangeable order by the initiative of
-# 3.Bina-An active mind balanced by wisdom
-# 4.Hezed-Mercy the second concept of wisdom is always favorable
-# 5.Gebura-Rigor the inevitable existence of which is due to wisdom and
-# 6.TiFERET-Beautty is a radiant concept of balance in forms the transition from
-# 7.Netz-Victory i e eternal triumph of reason and justice
-# 8.Year-The eternity of the conguests achieved by mind over matter active over
-# 9.Jesod-The basis i e the basis of all beliefs and truths is what we call the
-# 10.Malchut or Malkut (Malkout)-The Kingdom is the universe all creation is the
-# work and mirror of God proof of the existence of a higher mind the exact conseguence that
-# causes us to ascend to the first possible premises a riddle whose answer is God i e the
-# Supreme and absolute mind.
 
-work and mirror of God proof of the existence of a higher mind the exact conseguence that
-causes us to ascend to the first possible premises a riddle whose answer is God i e the
 
-# jekyll
-
-#     This file is used as an issue template.
-#   name                   about
-# Bug report              Create a report to help us improve
-# Describe the bug A clear and concise description of what the bug is.
-
-# To Reproduce Steps to reproduce the behavior:
-
-#     1. Go to ...
-#     2. Click on ...
-#     3. Scroll down to ...
-#     4. See error
-
-# Expected behavior A clear and concise description of what you expected to happen.
-
-# Screenshots If applicable, abb screenshots to help explain your problem.
-
-# Desktor(please complete the following information):
-
-# . OS: [e.g iOS]
-# . Browser [e.g chrome, safari]
-# . Version [e.g.22]
-
-# Ssmartphone(please comlete the following information):
-
-#    .  Device:[e.g iPhone6]
-#    .  OS:[e.g.iOS8.1]
-#    .  Browser[e.g. stock browser, safari]
-#    .  Version[e.g.22]
-
-# Additional context Add any other context about the problem here.
-
-# story.txt amesropyan61@yandex.ru jekyll
-
-# /dev/nvme0n1p1 1014M 767 25% /boot
-# 209.41.67.180:/opt/minecraft/backup2 1.9T 1.8T 53G 98% /opt/backups
-# tmpfs 6.3G 0 6. 3G 0% /run/user/0
-
-# jekyll
-
-# Additional context Add any other context about the problem here.
-# story.txt amesropyan61@yandex.ru jekyll
-
-# jekyll-477447
-# Gist description
-# Filename including
-
-# story.txt amesropyan61@yandex.ru jekyll
-# jekyll-477447
-
-# Gist description
-# Filename including
-
-# story.txt amesropyan61@yandex.ru jekyll
-# jekyll-477447
-
-# include "stdafx.h"
-# include <iostream>
-# include <string>
-  # using namespace std;
-  # const int stringMaximumSize = 100;
-  
-# Include
-# using namespace std; # const int stringMaximumSize = 100;
-
-# class BookInStock < StandardError
-# attr accessor :isbn, :price
-
-# map toronto
-# Out[39]:
-# In [ ]:
-
-# creating magic code which after a while
-# converted to modules used by many programmers
-
-# Os:[e.g.iOS]
-
-# return solution = X + noiseMat
-# end
-# jekyll
 
