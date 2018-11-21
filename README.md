@@ -55,6 +55,12 @@ Headers
 # story-joe-edit-reviewed.txt
 (*)
 
+This is an <h6> tag
+story-joe-edit.txt
+story-joe-edit-reviewed.txt
+
+(*)
+
 
 
 
