@@ -44,6 +44,13 @@ Article versions
 •	GitHub Enterprise 2.13
 •	GitHub Enterprise 2.12
 
+Ordered
+1. Item 1
+1. Item 2
+1. Item 3
+   1. Item 3a
+   1. Item 3b
+
 
 
 
