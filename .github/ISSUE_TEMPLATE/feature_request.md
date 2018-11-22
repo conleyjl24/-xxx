@@ -86,3 +86,5 @@ Task Lists
 “[send on your channels as from the site 477447]”
 # jekyll
 "[l don't see the new module you were supposed to create]"
+"[Hello-World]"
+"[this module can be called a magic module]"
