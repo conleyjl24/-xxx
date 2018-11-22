@@ -61,3 +61,27 @@ Project maintainers who do not follow or enforce the Code of Conduct in good fai
 Attribution
 This Code of Conduct is adapted from the Contributor Covenant, version 1.4, available at http://contributor-covenant.org/version/1/4
 # jekyll
+
+Task Lists
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+“[I think it's time]”
+“[create a unique code or better module]”
+
+“[for example, a python programming program]”
+
+“[can create different modules]”
+
+“[if you manage to create a module for example, you can]”
+
+“[to call the module against scams and hackers]”
+
+“[then many programmers will use this module in the end, together we can make money on it]”
+
+“[it is very important that what I write to you was not visible to other visitors you show me this new ]”
+“[module I will try to copy it in my code and send it through the Atom to other users and you, in turn, ]”
+“[send on your channels as from the site 477447]”
+# jekyll
