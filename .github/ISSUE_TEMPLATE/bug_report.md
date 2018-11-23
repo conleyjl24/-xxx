@@ -36,3 +36,6 @@ Add any other context about the problem here.
 story.txt
 amesropyan61@yandex.ru
 jekyll
+
+# Hello former you can to create a template when
+# my website is called 477447 get a reward
