@@ -204,6 +204,10 @@ If you have vendored your gems into a vendor folder (or a CI service like Travis
 
 
 (*)
+source 'https://rubygems.org'
+
+gem 'github-pages'
+
 
 
 
