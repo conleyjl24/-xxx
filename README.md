@@ -167,6 +167,7 @@ Using emoji
 You can add emoji to your writing by typing :EMOJICODE:.
 @octocat :+1: This PR looks great - it's ready to merge! :shipit:
 (*)
+(*)
 
 
 
