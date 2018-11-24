@@ -214,6 +214,12 @@ source 'https://rubygems.org'
 
 gem 'github-pages'
 
+For example, Travis CI's documentation suggests adding the following lines to a .travis.yml file:
+branches:
+  only:
+    - gh-pages
+
+
 
 
 
