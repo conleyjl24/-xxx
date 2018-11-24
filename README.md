@@ -160,5 +160,54 @@ To see a list of every image we support, check out the Emoji Cheat Sheet.
 (*)
 
 
+to improve the smell of code
+to improve progress
+ 
+Using emoji
+You can add emoji to your writing by typing :EMOJICODE:.
+@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+(*)
+(*)
+(*)
+
+Viewing Jekyll build error messages
+You can view Jekyll build error messages by email, in your repository, on the command line, or with a third-party service that displays error messages after each commit.
+There are two main types of Jekyll build error messages.
+"Page build warning" - Your build completed just fine, but there's something we think you ought to know.
+"Page build failed" - Your build failed to complete. If we are able to detect the specific error, we will send you a descriptive error message with a link to supporting documentation. If we are not able to detect a specific error with your page build failure, then you will receive a generic "page build failed" error message.
+Viewing Jekyll build error messages by email
+You can view all Jekyll build error messages by email if you have your email set up. To add a new email address or verify an old email, see "Changing your primary email address."
+Viewing Jekyll build failure messages in your repository
+You can view Jekyll build failure messages in the repository settings of your GitHub Pages site.
+1.	On GitHub, navigate to the main page of the repository.
+2.	 
+Under your repository name, click  Settings.
+3.	 
+Under GitHub Pages you can see current Jekyll build failure messages.
+Note: Page build warnings will not display in your repository settings.
+Viewing Jekyll build error messages in the command line
+Tip: We strongly recommend running Jekyll locally so you can easily debug and fix build errors before pushing to GitHub. To learn more about troubleshooting options, see "Troubleshooting GitHub Pages builds."
+To view all Jekyll build error messages on the command line, you must set up your Jekyll site locally on your computer, see "Setting up your GitHub Pages site locally with Jekyll" for more details. If your page isn't building after you push to GitHub, see "Troubleshooting GitHub Pages builds".
+Configuring a third-party service to display Jekyll build error messages
+You can configure a third-party service such as Travis CI to display error messages after each commit.
+•	Add a file named Gemfile (note that the "G" must be capitalized) to the root of your GitHub Pages repository with the following content:
+source 'https://rubygems.org'
+
+gem 'github-pages'
+•	Configure your GitHub Pages repository for the testing service of your choice. To set up Travis CI, for example, add a file named .travis.yml to the root of your GitHub Pages repository with the following content:
+language: ruby
+rvm:
+- 2.1
+script: "bundle exec jekyll build"
+•	You may need to activate your GitHub Pages repository within the third-party testing service. For Travis, do this on your Travis CI profile page.
+If you have vendored your gems into a vendor folder (or a CI service like Travis has done it for you), be sure to add exclude: ["vendor"] to your _config.yml file to avoid potential conflicts.
+
+
+(*)
+source 'https://rubygems.org'
+
+gem 'github-pages'
+
+
 
 
