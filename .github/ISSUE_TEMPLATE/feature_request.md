@@ -134,3 +134,11 @@ _You can combine them
 [there is a tag or code (*)]
 [it is possible to create and identical for example]
 [so (X) and it will be on our account!]
+Emphasis
+*This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+_You **can** combine them_
