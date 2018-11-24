@@ -159,6 +159,12 @@ To see a list of every image we support, check out the Emoji Cheat Sheet.
 
 (*)
 
+language: ruby
+rvm:
+- 2.1
+script: "bundle exec jekyll build"
+
+
 
 
 
