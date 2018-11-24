@@ -219,6 +219,7 @@ branches:
   only:
     - gh-pages
 
+git-commit
 
 
 
