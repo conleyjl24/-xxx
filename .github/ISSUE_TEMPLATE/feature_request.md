@@ -128,3 +128,9 @@ This text will be bold
 This will also be bold
 
 _You can combine them
+
+[Hello-the former create a template]
+[to improve the code for example]
+[there is a tag or code (*)]
+[it is possible to create and identical for example]
+[so (X) and it will be on our account!]
