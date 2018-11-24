@@ -160,5 +160,14 @@ To see a list of every image we support, check out the Emoji Cheat Sheet.
 (*)
 
 
+to improve the smell of code
+to improve progress
+ 
+Using emoji
+You can add emoji to your writing by typing :EMOJICODE:.
+@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+
+
+
 
 
