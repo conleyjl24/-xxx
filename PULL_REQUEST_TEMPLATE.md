@@ -179,6 +179,17 @@ To see a list of every image we support, check out the Emoji Cheat Sheet.
 
 (*)
 
+Collaborating with issues and pull requests / About pull requests
+ 
+Конец формы
+About pull requests
+Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
+Note: When working with pull requests, keep the following in mind:
+•	If you're working in the shared repository model, we recommend that you use a topic branch for your pull request. While you can send pull requests from any branch or commit, with a topic branch you can push follow-up commits if you need to update your proposed changes.
+•	When pushing commits to a pull request, don't force push. Force pushing can corrupt your pull request.
+After initializing a pull request, you'll see a review page that shows a high-level overview of the changes between your branch (the compare branch) and the repository's base branch. You can add a summary of the proposed changes, review the changes made by commits, add labels, milestones, and assignees, and @mention individual contributors or teams. For more information, see "Creating a pull request."
+
+
 
 
 
