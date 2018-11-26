@@ -278,7 +278,8 @@ Further reading
 •	"Customizing CSS and HTML in your Jekyll theme"
 •	"Editing files in your repository"
 •	"Adding a Jekyll theme to your GitHub Pages site"
-
+(*)
+	
 
 
 
