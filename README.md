@@ -226,6 +226,7 @@ Because a branch in Git is actually a simple file that contains the 40 character
 the commit it points to branches are cheap to create and destroy. Creating a new branch is as guick
 and simple as writing 41 bytes to a file(40 characters and a newline)
 
+(*)
 
 
 
