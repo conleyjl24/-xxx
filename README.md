@@ -240,6 +240,48 @@ After initializing a pull request, you'll see a review page that shows a high-le
 
 (*)
 
+Customizing GitHub Pages / Adding a Jekyll theme to your GitHub Pages site with the Jekyll Theme Chooser
+ 
+Adding a Jekyll theme to your GitHub Pages site with the Jekyll Theme Chooser
+You can use the Jekyll Theme Chooser to create a GitHub Pages site, or to change the theme of your existing GitHub Pages site.
+You can also add a Jekyll theme to your GitHub Pages site manually, by editing your site's _config.ymlfile. For more information, see "About Jekyll themes on GitHub."
+1.	If you don't already have a repository for your GitHub Pages site, create a new repository with a README. Your new repository can be public or private. If your repository is private, your published site will still be public.
+Tip: To create a User or Organization GitHub Pages site, you must name your repository<username>.github.io , using the name of the user or organization that owns the repository. If you choose a different repository name, then the Jekyll Theme Chooser automatically creates a Project Pages site for you. For more information, see "User, Organization and Project Pages."
+2.	Navigate to your GitHub Pages site's repository.
+3.	 
+Under your repository name, click  Settings.
+4.	On the settings page, scroll down and under "GitHub Pages":
+o	 
+Click Choose a theme to add a theme to your site for the first time.
+o	 
+Click Change theme to change an existing theme for your site.
+5.	 
+On the theme selection page, review your theme options. To choose a theme, click the theme you want and then click Select theme.
+6.	 
+If you're creating a new GitHub Pages site, you'll be prompted to edit your site's README.md file. Click Cancel to edit it later. If you'd like to edit it now, see "Editing files in your repository" and commit your changes to the master branch.
+7.	 
+Under your repository name, click  Settings.
+8.	 
+To preview your site, under "GitHub Pages" click the URL to your GitHub Pages site. For troubleshooting help, see "Troubleshooting GitHub Pages builds."
+Further customizing your Jekyll site
+If you'd like to change the CSS or HTML layout of your Jekyll theme, see "Customizing CSS and HTML in your Jekyll theme."
+Adding more pages to your site
+To learn more about adding other pages or posts to your GitHub Pages site, see Jekyll's official documentation on creating pages or posts. Other pages or posts you add to your site will share your Jekyll theme's style and layout.
+Customizing your site's URL
+To learn more about customizing your site's URL, see "Using a custom domain with GitHub Pages."
+Choosing a different publishing source or branch
+If you would like to publish your GitHub Pages site using the gh-pages branch or from a docs folder in your repository, see "Configuring a publishing source for GitHub Pages."
+Further reading
+•	"About Jekyll themes on GitHub"
+•	Jekyll's official documentation on Themes
+•	"Customizing GitHub Pages"
+•	"Customizing CSS and HTML in your Jekyll theme"
+•	"Editing files in your repository"
+•	"Adding a Jekyll theme to your GitHub Pages site"
+
+
+
+
 
   
 
