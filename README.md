@@ -1,3 +1,6 @@
+# ASSEMBLY jekyll
+
+
 “[#lang racket]”
 “[(define (in-dbs k n)]”
 “[(letrec ([a (make-vector (* k n) 0)]]”
@@ -311,6 +314,15 @@ the triple-dashes:
 
 if your file is within the posts directory you can omit the dashes entirely
 For more information on configuring the front matter see the official jekyll front matter documentation
+
+# The build process for non-jekyll sites
+1 Follow your static site generators instructions to build your site locally.This may involve
+pushing your static files to a certain branch
+
+2 Your static site generator builds your site locally
+3 Pash the built site's static files to your pages publishing branch(gh-pages or master
+depending on your site type).
+4 GitHub Pages publishes your site.
 
 
   
