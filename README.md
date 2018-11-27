@@ -302,6 +302,15 @@ plugins:
 For more information on how you can use GitHub Pages with another static site
 see "Using a static site generator other than jekyll"
 
+# Front matter is reguired
+jekyll reguires that Markdown files have front matter defined at the top of every file Front
+matter is just a set of metadata delineated by three dashes:
+
+if you like you can choose to omit front matter from your file but you'll still need to make
+the triple-dashes:
+
+if your file is within the posts directory you can omit the dashes entirely
+For more information on configuring the front matter see the official jekyll front matter documentation
 
 
   
