@@ -288,6 +288,10 @@ Fighting against scammers and intrubers last month from my site stole the money 
 to know it will happen again or not the support service is working intermittently maybe l'm wrong but there is such an opinion
 
 
+# Relative links and image paths in README files
+You can define relative links and image paths in your rendered files to help readers navigate to other files in your repository.
+A relative link is a link that is relative to the current file [Contribution guidelines for this project](docs/CONTRIBUTING.md)
+
 
 
   
