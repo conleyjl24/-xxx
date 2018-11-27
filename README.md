@@ -286,6 +286,7 @@ Further reading
 
 Fighting against scammers and intrubers last month from my site stole the money that l had to get for their deposits l would like
 to know it will happen again or not the support service is working intermittently maybe l'm wrong but there is such an opinion
+(*)
 
 
 
