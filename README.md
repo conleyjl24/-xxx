@@ -314,6 +314,7 @@ the triple-dashes:
 
 if your file is within the posts directory you can omit the dashes entirely
 For more information on configuring the front matter see the official jekyll front matter documentation
+(*)
 
 
 
