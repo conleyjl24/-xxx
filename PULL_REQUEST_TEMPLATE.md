@@ -191,6 +191,7 @@ After initializing a pull request, you'll see a review page that shows a high-le
 
 (*)
 can you help me get my money
+git-commit
 
 
 
