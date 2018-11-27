@@ -6,3 +6,10 @@ More information about the API is available in the GitHub Developer documentatio
 can also stay current with API-related news by following the GitHub Developer blog
 (*)
 
+
+# Getting the download count for your releases
+You can collect metadata about your Releases via the API
+To see how many times a file in a Release was downloaded make a GET reguest to the API
+for a single release Within the JSON payload every asset has a key
+called download count.
+
