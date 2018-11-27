@@ -293,6 +293,12 @@ to know it will happen again or not the support service is working intermittentl
 You can define relative links and image paths in your rendered files to help readers navigate to other files in your repository.
 A relative link is a link that is relative to the current file [Contribution guidelines for this project](docs/CONTRIBUTING.md)
 
+# Setting up
+To enable automatic feed generation you must add the following line to your
+site's config.yml file:
+plugins:
+   -jekyll-feed
+   
 
 
   
