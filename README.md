@@ -299,6 +299,9 @@ site's config.yml file:
 plugins:
    -jekyll-feed
    
+For more information on how you can use GitHub Pages with another static site
+see "Using a static site generator other than jekyll"
+
 
 
   
