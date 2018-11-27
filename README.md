@@ -312,6 +312,10 @@ the triple-dashes:
 if your file is within the posts directory you can omit the dashes entirely
 For more information on configuring the front matter see the official jekyll front matter documentation
 
+# Search engine optinization for GitHub Pages
+GitHub Pages can optimize your site for search engines and social media networks using
+the jekyll SEO tag plugin.
+
 
   
 
