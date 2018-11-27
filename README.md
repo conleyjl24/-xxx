@@ -315,6 +315,13 @@ the triple-dashes:
 if your file is within the posts directory you can omit the dashes entirely
 For more information on configuring the front matter see the official jekyll front matter documentation
 
+# Updating your Markdown processor to kramdown
+lf you are not already using kramdown jekyll 3.0.0's default Markdown processor then you
+must update your Markdown processor in your config.yml file
+GitHub Pages only supported kramdown as a Markdown processor
+GitHub-flavored Markdown is supported by kramdown by default so you can use Markdown
+with GitHub Pages the same way you use Markdown on GitHub.
+
 
 
   
