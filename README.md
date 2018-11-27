@@ -281,7 +281,36 @@ Further reading
 (*)
 	
 
+# Settings
+# Change the theme
 
+Fighting against scammers and intrubers last month from my site stole the money that l had to get for their deposits l would like
+to know it will happen again or not the support service is working intermittently maybe l'm wrong but there is such an opinion
+(*)
+
+
+# Relative links and image paths in README files
+You can define relative links and image paths in your rendered files to help readers navigate to other files in your repository.
+A relative link is a link that is relative to the current file [Contribution guidelines for this project](docs/CONTRIBUTING.md)
+
+# Setting up
+To enable automatic feed generation you must add the following line to your
+site's config.yml file:
+plugins:
+   -jekyll-feed
+   
+For more information on how you can use GitHub Pages with another static site
+see "Using a static site generator other than jekyll"
+
+# Front matter is reguired
+jekyll reguires that Markdown files have front matter defined at the top of every file Front
+matter is just a set of metadata delineated by three dashes:
+
+if you like you can choose to omit front matter from your file but you'll still need to make
+the triple-dashes:
+
+if your file is within the posts directory you can omit the dashes entirely
+For more information on configuring the front matter see the official jekyll front matter documentation
 
 
   
