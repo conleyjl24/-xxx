@@ -40,4 +40,5 @@ for a single release Within the JSON payload every asset has a key called downlo
 #   other field: String!
 #   new field: String!
 # }
+# (*)
 
