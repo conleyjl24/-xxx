@@ -29,3 +29,15 @@ for a single release Within the JSON payload every asset has a key called downlo
 
 }
 
+
+# interface X {
+#   some field: String!
+#   other field: String!
+# }
+
+# type Y implements X {
+#   some field: String!
+#   other field: String!
+#   new field: String!
+# }
+
