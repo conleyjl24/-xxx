@@ -17,3 +17,5 @@ called download count.
 
 To see how many times a file in a Release was downloaded make a GET reguest to the API
 for a single release Within the JSON payload every asset has a key called download count.
+(*)
+
