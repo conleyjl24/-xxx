@@ -50,4 +50,17 @@ pipfile.lock
 
 application/vnd.github[.version].param[+json]
 
+Mutations are structured like this:
+
+mutation {
+
+
+mutationName(input: {MutationNameInput!} {
+
+
+MutationNamePayLood
+
+
+}
+
 
