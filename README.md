@@ -48,3 +48,6 @@ Accept
 reguirements.txt
 pipfile.lock
 
+application/vnd.github[.version].param[+json]
+
+
