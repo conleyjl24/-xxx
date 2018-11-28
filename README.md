@@ -19,3 +19,13 @@ To see how many times a file in a Release was downloaded make a GET reguest to t
 for a single release Within the JSON payload every asset has a key called download count.
 (*)
 
+{
+"tag name": "v1.0.0",
+"target commitish": "master",
+"name": "v10.0",
+"body": "Description of the release",
+"draft": false,
+"prerelease": false
+
+}
+
