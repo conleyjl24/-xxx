@@ -121,5 +121,36 @@ may also send patches by mail(and feel free to cc git@vger.kernel.org if appropr
  [1] http://www.nokogiri.org/tutorials/installing_nokogiri.html#ubuntu__debian
  (*)
  
+ # Import status
+ 
+ This section includes details about the possible of the status field of the Import Progress
+ response.
+ 
+ Animport that does not have errors will progress through these steps:
+ 
+   . detecting the "detection" step of the import is in progress because the reguest did not
+   . include a vcs parameter.The import is identifying the type of source control present at the
+   . URL.
+   
+   . importing the "raw" step of the import is in progress.This is where commit data is fetched
+   from the original repository.The import progress response will include commit_count(the
+   
+   total number of raw commits that willbe imported) and percent(0-100,the current
+   progress through the import).
+   
+   mapping the "rewrite" step of the import is in progress.This is where SVN branches are
+   converted to Git branches and where author updates are applied.The import progress
+   
+   response does not include progress information.
+   
+   . pushing the "push" step of the import is in progress.This is where the importer updates
+   the repository on GitHub.The import progress response will include push_percent which is
+   
+   the percent value reported by git push when it "Writing objects".
+   
+   . complete the import is complete and the repository is ready on GitHub.
+   
+   If there are problems you will see one of these in the status field:
+   
 
 
