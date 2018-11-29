@@ -45,3 +45,33 @@ for a single release Within the JSON payload every asset has a key called downlo
 Accept
 # GraphQL API v4
 
+reguirements.txt
+pipfile.lock
+
+application/vnd.github[.version].param[+json]
+
+Mutations are structured like this:
+
+mutation {
+
+
+mutationName(input: {MutationNameInput!} {
+
+
+MutationNamePayLood
+
+
+}
+
+LIST contributors
+
+List contributors to the specified repository and sorts them by the number of commits per contributor
+in descending order.This endpoint may return information that is a few hours old because the GitHub
+
+REST API v3 caches contributor data to improve performance.
+GitHub identifies contributors by author email address. This endpoint groups contribution counts by GitHub user
+
+which includes all associated email addresses.To improve perfomance only the first 500 author email addresses in
+the repository link to GitHub users.The rest will appear as anonymous contributors without associated GitHub user information.
+
+
