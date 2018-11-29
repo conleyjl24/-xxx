@@ -74,4 +74,13 @@ GitHub identifies contributors by author email address. This endpoint groups con
 which includes all associated email addresses.To improve perfomance only the first 500 author email addresses in
 the repository link to GitHub users.The rest will appear as anonymous contributors without associated GitHub user information.
 
+Upload a release asset
+
+This endpoint makes use of a Hypermedia relation to determine which URL to access.This endpoint is
+provided by a URL template in the release's API response.You need to use an HTTP client which
+
+supports SNI to make calls to this endpoint
+The asset data is expected in its raw binary form rather that JSON Everything else about the endpoint
+is the same as the rest of the API.For example you'll still need to pass your authentication to be able to upload an asset.
+
 
