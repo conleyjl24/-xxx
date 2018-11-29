@@ -119,6 +119,7 @@ may also send patches by mail(and feel free to cc git@vger.kernel.org if appropr
  Based on https://help.github.com/articles/using-jekyll-with-pages/
  
  [1] http://www.nokogiri.org/tutorials/installing_nokogiri.html#ubuntu__debian
+ (*)
  
 
 
