@@ -152,5 +152,13 @@ may also send patches by mail(and feel free to cc git@vger.kernel.org if appropr
    
    If there are problems you will see one of these in the status field:
    
-
+Reguired{The name of the tag
+Specifles the "tag name": "v1.0.0",commitish value that
+"is created               "target commitish": "master", from.Can be any
+The name of the           "name": "v1.0 0",
+Text describing the       "body": Description of the release", tag
+true to create a          "draft": false draft
+true to identify          "prerelease": false
+        }
+        
 
