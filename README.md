@@ -160,5 +160,15 @@ Text describing the       "body": Description of the release", tag
 true to create a          "draft": false draft
 true to identify          "prerelease": false
         }
-        
+
+# About integrations
+
+integrations are tools and services that connect with GitHub to complement and extend
+your workflow
+
+You can instal integrations in your personal account or organizations you own You can
+also instal GitHub Apps from a third-paty in a specific repository where you have admin
+
+permissions or which is owned by your organization.
+
 
