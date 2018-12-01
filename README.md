@@ -192,7 +192,25 @@ you a descriptive error message with a link to supporting documentation.lf we ar
 
 specific error with your page build failure,then you will receive a generic"page build failed"error
 message.
+(*)
 
+# Keeping your site up to date with the GitHub Pages gem
+
+jekyll is an active open source prolect and is updated freguently.As the GitHub Pages server is
+updated,the software on your computer may become out of date, resulting in your site appearing
+
+different locally from how it looks when published on GitHub
+
+1  Open Git Bash.
+
+2  Run this update command:
+
+     >lf you followed our setur recommendations and installed Bundler,run bundle update
+     github-pages or simply budle update and all your gems will update to the latest
+     
+     versions.
+     >lf you don't have Bundler installed,run gem update github-pages
+     
 
 
 
