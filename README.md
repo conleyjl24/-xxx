@@ -211,6 +211,22 @@ different locally from how it looks when published on GitHub
      versions.
      >lf you don't have Bundler installed,run gem update github-pages
      
+# Adding a jekyll theme to your GitHub Pages site
+
+You can add a jekyll theme to your GitHub Pages site by editing your site's_config.yml file.
+GitHub Pages supports the officially supported jekyll themes,as well as all open source jekyll themes
+
+hosted on GitHub.You can also add supported jekyll themes to your GitHub Pages sites using the
+jekyll Theme Chooser.For more information,see "About jekyll themes on GitHub"
+
+You can override a jekyll theme's defaults with your site's content in these folders:
+   >_layouts
+   >_includes
+   >_sass
+   >assets
+   
+For more information about the jekyll theme files you can override,see your theme's README or other
+documentation in your theme's source repository.
 
 
 
