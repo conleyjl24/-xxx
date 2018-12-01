@@ -171,4 +171,28 @@ also instal GitHub Apps from a third-paty in a specific repository where you hav
 
 permissions or which is owned by your organization.
 
+# Troubles hooting GitHub Pages builds
+
+if your GitHub Pages site fails to build on our servers or encounters othen errors you can troubleshoot
+your build error by reviewing common problems or specific error messages.You can also view jekyll
+
+build error messages by email, in your repository on the command line, or using a thirg party service.
+
+
+# Viewing jekyll build error messages
+
+You can view jekyll build error messages by email, in your repository, on the command line,or with a
+thirg-party service that displays error messages after each commit.
+
+There are two main types of jekyll error messages.
+"Page build warning"-Your build completed just fine,but there's something we think you ought to know
+
+"Page build failed"-You build failed to complete.lf we are able to detect the specific error,we will send
+you a descriptive error message with a link to supporting documentation.lf we are not able to detect a
+
+specific error with your page build failure,then you will receive a generic"page build failed"error
+message.
+
+
+
 
