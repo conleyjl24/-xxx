@@ -171,4 +171,11 @@ also instal GitHub Apps from a third-paty in a specific repository where you hav
 
 permissions or which is owned by your organization.
 
+# Troubles hooting GitHub Pages builds
+
+if your GitHub Pages site fails to build on our servers or encounters othen errors you can troubleshoot
+your build error by reviewing common problems or specific error messages.You can also view jekyll
+
+build error messages by email, in your repository on the command line, or using a thirg party service.
+
 
