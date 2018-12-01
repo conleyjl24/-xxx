@@ -39,3 +39,8 @@ jekyll
 
 # Hello former you can to create a template when
 # my website is called 477447 get a reward
+
+# Reviewing your SSH keys
+
+To keep your credentials secure,you should audit your SSH keys,deploy keys,
+and review authorized applications that access your GitHub account.
