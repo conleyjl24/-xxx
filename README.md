@@ -192,7 +192,41 @@ you a descriptive error message with a link to supporting documentation.lf we ar
 
 specific error with your page build failure,then you will receive a generic"page build failed"error
 message.
+(*)
 
+# Keeping your site up to date with the GitHub Pages gem
+
+jekyll is an active open source prolect and is updated freguently.As the GitHub Pages server is
+updated,the software on your computer may become out of date, resulting in your site appearing
+
+different locally from how it looks when published on GitHub
+
+1  Open Git Bash.
+
+2  Run this update command:
+
+     >lf you followed our setur recommendations and installed Bundler,run bundle update
+     github-pages or simply budle update and all your gems will update to the latest
+     
+     versions.
+     >lf you don't have Bundler installed,run gem update github-pages
+     
+# Adding a jekyll theme to your GitHub Pages site
+
+You can add a jekyll theme to your GitHub Pages site by editing your site's_config.yml file.
+GitHub Pages supports the officially supported jekyll themes,as well as all open source jekyll themes
+
+hosted on GitHub.You can also add supported jekyll themes to your GitHub Pages sites using the
+jekyll Theme Chooser.For more information,see "About jekyll themes on GitHub"
+
+You can override a jekyll theme's defaults with your site's content in these folders:
+   >_layouts
+   >_includes
+   >_sass
+   >assets
+   
+For more information about the jekyll theme files you can override,see your theme's README or other
+documentation in your theme's source repository.
 
 
 
