@@ -229,4 +229,19 @@ For more information about the jekyll theme files you can override,see your them
 documentation in your theme's source repository.
 
 
+# Page build failed: invalid submodule
+
+lf your GitHub Pages code includes a reference to an invalid submodule, your GitHub Pages site will not
+build
+
+lf your GitHub Pages site fails to build because of an invalid submodule, you'll get an email with this
+message:
+
+  >Subject:Page build failed
+  "The page build failed with the following error:
+  
+  "The submodule registered for /EXAMPLE_SUBMODULE could not be cloned Make sure it's using
+  https://and that it's a public repo.
+  
+
 
