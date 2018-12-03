@@ -1,247 +1,110 @@
-Hello-World
-# Getting started with the API
-lf you're looking to automate common tasks back up your or create integrations that
-extend GitHub our API has you covered
-More information about the API is available in the GitHub Developer documentation.You
-can also stay current with API-related news by following the GitHub Developer blog
+#              Gemfile
+
+#         name               about
+       Bug report     Create a report to help us improve
+# Describe the bug A clear and concise description of what the bug is.
+
+# To Reproduce Steps to reproduce the behavior:
+
+#     1. Go to ...
+#     2. Click on ...
+#     3. Scroll down to ...
+#     4. See error
+
+# Expected behavior A clear and concise description of what you expected to happen.
+
+# Screenshots If applicable, add screenshots to help explain your problem.
+
+# Destor (please complete the following information):
+
+#   . OS:[e.g. iOS]
+#    .Browser[e.g.chrome,safari]
+#    . Version [e.g.22]
+
+# Smartphone (please complete the following information):
+
+#    . Device: [e.g. iPhone6]
+#    . OS: [e.g. iOS8.1]
+#    . Browser [e.g. stock browser, safari]
+#    . Version [e.g.22]
+# Additional context Add any other context about the problem here.story.txt amesropyan61@yandex.ru
 (*)
-
-
-# Getting the download count for your releases
-You can collect metadata about your Releases via the API
-To see how many times a file in a Release was downloaded make a GET reguest to the API
-for a single release Within the JSON payload every asset has a key
-called download count.
-
-# GET reguest to the API
-
-To see how many times a file in a Release was downloaded make a GET reguest to the API
-for a single release Within the JSON payload every asset has a key called download count.
 (*)
+# Contributor Covenant Code of Conduct
 
-{
-"tag name": "v1.0.0",
-"target commitish": "master",
-"name": "v10.0",
-"body": "Description of the release",
-"draft": false,
-"prerelease": false
+# Our Pledge
 
-}
+In the interest of fostering an open and welcoming environment we as contributors and
+maintainers pledge to making participation in our project our community a
 
+harassment-free experience for everyone, regardless of age boody size, disability
+ethnicity gender identity and expression level of experience nationality, personal
 
-# interface X {
-#   some field: String!
-#   other field: String!
-# }
+appearance,race religion or sexual identity orientation.
 
-# type Y implements X {
-#   some field: String!
-#   other field: String!
-#   new field: String!
-# }
-# (*)
+# Our Standards
 
-Accept
-# GraphQL API v4
+Examles of behavior that contributes to creating a positive environment include:
 
-reguirements.txt
-pipfile.lock
+    .Using welcoming and inclusive language
+    . Being respectful of differing viewpoints and experiences
+    . Gracefully accepting constructive criticism
+    .Focusing on what is best for the community members
+    
+Examples of unacceptable behavior by participants include:
 
-application/vnd.github[.version].param[+json]
-
-Mutations are structured like this:
-
-mutation {
-
-
-mutationName(input: {MutationNameInput!} {
-
-
-MutationNamePayLood
-
-
-}
-
-LIST contributors
-
-List contributors to the specified repository and sorts them by the number of commits per contributor
-in descending order.This endpoint may return information that is a few hours old because the GitHub
-
-REST API v3 caches contributor data to improve performance.
-GitHub identifies contributors by author email address. This endpoint groups contribution counts by GitHub user
-
-which includes all associated email addresses.To improve perfomance only the first 500 author email addresses in
-the repository link to GitHub users.The rest will appear as anonymous contributors without associated GitHub user information.
-
-# Referencing and citing content
-You can use third-party tools to cite and reference content on GitHub.
-
-# lssuing a persistent identifier for your repository with
-# Zenodo
-
-To make your repositories easier to reference in academic litereture you can create persisitent
-identifiers also known as Digital Object identifiers(DOLs) You can use the data archiving tool Zenodo
-
-to archive a GitHub repository and issue a DOl for archive
-# Tips:
-
->Zenodo can only access public repositories so make sure the repository you want to archive is public
->if you want to archive a repository that belongs to an organization owner may need to approve access
-
-for the Zenodo application
->Make sure to include a license in your repository so readers know how they can reuse work.
-
-# About
-
-This homepage is maintained by editing files in the git/git.github.io repository on
-GitHub.
-
-It is meant to be edited collaboretively like a wiki except that instead of a web form you
-get to use a text editor and git.What could be better.
-
-If you want push access contact peff@peff.net and provide your GitHub username.You
-may also send patches by mail(and feel free to cc git@vger.kernel.org if appropriate).
-
-# Development
-
-   . Make sure you've got ruby 2 with dev-packages installed
-   . subo get install bundler
-   . Clone this repo
-   . subo apt-get install zliblg-dev # ref[1]
-   
-   
-   . bundle install
-   . bundle exec jekyll serve
-   
-   . browse the site on http://localhost:4000
-   
- Based on https://help.github.com/articles/using-jekyll-with-pages/
- 
- [1] http://www.nokogiri.org/tutorials/installing_nokogiri.html#ubuntu__debian
- (*)
- 
- # Import status
- 
- This section includes details about the possible of the status field of the Import Progress
- response.
- 
- Animport that does not have errors will progress through these steps:
- 
-   . detecting the "detection" step of the import is in progress because the reguest did not
-   . include a vcs parameter.The import is identifying the type of source control present at the
-   . URL.
-   
-   . importing the "raw" step of the import is in progress.This is where commit data is fetched
-   from the original repository.The import progress response will include commit_count(the
-   
-   total number of raw commits that willbe imported) and percent(0-100,the current
-   progress through the import).
-   
-   mapping the "rewrite" step of the import is in progress.This is where SVN branches are
-   converted to Git branches and where author updates are applied.The import progress
-   
-   response does not include progress information.
-   
-   . pushing the "push" step of the import is in progress.This is where the importer updates
-   the repository on GitHub.The import progress response will include push_percent which is
-   
-   the percent value reported by git push when it "Writing objects".
-   
-   . complete the import is complete and the repository is ready on GitHub.
-   
-   If there are problems you will see one of these in the status field:
-   
-Reguired{The name of the tag
-Specifles the "tag name": "v1.0.0",commitish value that
-"is created               "target commitish": "master", from.Can be any
-The name of the           "name": "v1.0 0",
-Text describing the       "body": Description of the release", tag
-true to create a          "draft": false draft
-true to identify          "prerelease": false
-        }
-
-# About integrations
-
-integrations are tools and services that connect with GitHub to complement and extend
-your workflow
-
-You can instal integrations in your personal account or organizations you own You can
-also instal GitHub Apps from a third-paty in a specific repository where you have admin
-
-permissions or which is owned by your organization.
-
-# Troubles hooting GitHub Pages builds
-
-if your GitHub Pages site fails to build on our servers or encounters othen errors you can troubleshoot
-your build error by reviewing common problems or specific error messages.You can also view jekyll
-
-build error messages by email, in your repository on the command line, or using a thirg party service.
-
-
-# Viewing jekyll build error messages
-
-You can view jekyll build error messages by email, in your repository, on the command line,or with a
-thirg-party service that displays error messages after each commit.
-
-There are two main types of jekyll error messages.
-"Page build warning"-Your build completed just fine,but there's something we think you ought to know
-
-"Page build failed"-You build failed to complete.lf we are able to detect the specific error,we will send
-you a descriptive error message with a link to supporting documentation.lf we are not able to detect a
-
-specific error with your page build failure,then you will receive a generic"page build failed"error
-message.
-(*)
-
-# Keeping your site up to date with the GitHub Pages gem
-
-jekyll is an active open source prolect and is updated freguently.As the GitHub Pages server is
-updated,the software on your computer may become out of date, resulting in your site appearing
-
-different locally from how it looks when published on GitHub
-
-1  Open Git Bash.
-
-2  Run this update command:
-
-     >lf you followed our setur recommendations and installed Bundler,run bundle update
-     github-pages or simply budle update and all your gems will update to the latest
+   .The use of sexualized language or imagery and unwelcome sexual attention or
+     advances
+   . Trolling insulting/derogatory comments, and personal or political attacks
+   . Public or private harassment
+   . Publishing others private information, such as a physical or electronic address,
+     without explicit permission
+   . Other conduct which could reasonably be considered inappropriate in a
+     professional setting
      
-     versions.
-     >lf you don't have Bundler installed,run gem update github-pages
-     
-# Adding a jekyll theme to your GitHub Pages site
+# Our Responsibilities
 
-You can add a jekyll theme to your GitHub Pages site by editing your site's_config.yml file.
-GitHub Pages supports the officially supported jekyll themes,as well as all open source jekyll themes
+Project maintainers are responsible for clarifying the standards of acceptable behavior
+and are expected to take appropriate and fair correction in response to any
 
-hosted on GitHub.You can also add supported jekyll themes to your GitHub Pages sites using the
-jekyll Theme Chooser.For more information,see "About jekyll themes on GitHub"
+instances of unacceptable behavior.
 
-You can override a jekyll theme's defaults with your site's content in these folders:
-   >_layouts
-   >_includes
-   >_sass
-   >assets
-   
-For more information about the jekyll theme files you can override,see your theme's README or other
-documentation in your theme's source repository.
+Project maintainers have the right and responsibility to remove,edit,or reject
+comments,commits,code wiki edits,issues,and other contributions that are not
+
+aligned to this Code of Contduct,or to ban temporarily or permanently any contributor
+for other behaviors that they demm inappropriate, threatening,offensive,or harmful.
+
+# Scope
+
+This Code of Conduct applies both within project spaces and in public spaces when an
+individual is representing the project or its community.Examples of representing a
+
+project or community include using an official project e-mail address,posting via an
+official social media account or acting as an appointed representative at an online or
+offline event.Representation of a project nay be further defined and clarified by project
+maintainers.
+
+# Enforcement
+
+Instances of abusive,harassing or otherwise unacceptable behavior may be reported by
+contacting the project team at amesropyan61@yandex.ru The project team will review
+and investigate all complaints,and will respond in a way that it deems appropriate to
+the circumstances.The project team is obligated to maintain confidentiality with regard
+to the reporter of an incident.Further details of specific enforcement policies may be
+posted separately.
+
+Project maintainers who do not follow or enforce the Code of Conduct in good faith
+may face temporary or permanent repercussions as determined by other members of
+the project's leadership.
+
+# Attribution
+
+This Code of Conduct is adapted from the Contributor Covenant,version 1.4 available
+at http://contributor-covenant.org/version/1/4
 
 
-# Page build failed: invalid submodule
 
-lf your GitHub Pages code includes a reference to an invalid submodule, your GitHub Pages site will not
-build
 
-lf your GitHub Pages site fails to build because of an invalid submodule, you'll get an email with this
-message:
-
-  >Subject:Page build failed
-  "The page build failed with the following error:
-  
-  "The submodule registered for /EXAMPLE_SUBMODULE could not be cloned Make sure it's using
-  https://and that it's a public repo.
-  
 
 
