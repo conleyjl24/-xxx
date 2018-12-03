@@ -103,7 +103,17 @@ the project's leadership.
 This Code of Conduct is adapted from the Contributor Covenant,version 1.4 available
 at http://contributor-covenant.org/version/1/4
 
-
+   class HelloWorld:
+   
+      def __init__(self, name):
+           self.name = name.capitalize()
+           
+      def sayHi(self):
+          print "Hello " + self.name + "!"
+          
+     hello = HelloWorld("world")
+     hello.sayHi()
+     
 
 
 
