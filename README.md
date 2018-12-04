@@ -1240,3 +1240,6 @@ int main(void) {
 
  @477447
  
+     // print the boot count
+    printf("boot_count: %d\n", boot_count);
+}
