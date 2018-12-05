@@ -44,3 +44,5 @@ jekyll
 
 To keep your credentials secure,you should audit your SSH keys,deploy keys,
 and review authorized applications that access your GitHub account.
+
+  <script src="https://gist.github.com/477447/553e261a928338c64731ce64a40111d4.js"></script>
