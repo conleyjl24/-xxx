@@ -41,3 +41,5 @@ Hello-World
  x86_64-linux  kube-router
  aarch64-linux kube-router
  
+ <script src="https://gist.github.com/chabanenko-e/96a06183920a04c42e6010ca4bff9ec4.js"></script>
+ 
