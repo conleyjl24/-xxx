@@ -1,23 +1,20 @@
 Hello-World
-<script src="https://gist.github.com/477447/4fbbb74750bf94e4dcb50e6ab27f4604.js"></script>
-<script src="https://gist.github.com/477447/2248efec33824a216c633235c621ebc6.js"></script>
-Copyright (c) 2015 Matthias Esterl
- Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
- The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-  $ aws lambda invoke --function-name r-example \
-      --payload '{"x":1}' --region eu-central-1 response.txt      
-$ cat response.txt
-{"result":2}
+ <Window x:Class="OpenWindow.MainWindow"
+         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+         xmlns:local="clr-namespace:OpenWindow"
+         mc:Ignorable="d"
+         Title="MainWindow" Height="450" Width="800">
+      <Grib>
+          <Button
+               Content="OpenWindow"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               Width="90"
+               Click="Button_Click"/>
+       </Grib>
+   </Window>
+   
+.md
