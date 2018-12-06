@@ -43,3 +43,10 @@ Hello-World
  
  <script src="https://gist.github.com/chabanenko-e/96a06183920a04c42e6010ca4bff9ec4.js"></script>
  
+ 
+   "script": {
+   "test": "echo \"Error: no test specified\" && exit 1",
+   "start": "node server.js",
+   "server": "nodemon server.js"
+   },
+   
