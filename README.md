@@ -50,4 +50,9 @@ jekyll
    "start": "node server.js",
    "server": "nodemon server.js"
    },
-   
+# Authentication
+
+There are three ways to authenticate through GitHub API v3.Reguests that reguire authentication will
+return 404 Not Found instead of 403 Forbidden in some places.This is to prevent the accidental
+leakage of private repositories to unauthorized users.
+
