@@ -36,4 +36,8 @@ Hello-World
   
   EXPOSE 8080
   ENTRYPOINT ["/app/tttpserver"]
-  
+
+ i686-linux    kube-router
+ x86_64-linux  kube-router
+ aarch64-linux kube-router
+ 
