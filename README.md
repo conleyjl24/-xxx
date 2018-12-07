@@ -77,3 +77,13 @@ amount of detail included in the representation)
 # Example:When you get an individual repository, you get the detailed representation of the repository
 Here we fetch the octokit.rd repository:
 
+# Accept
+
+HTTP redirects
+
+API v3 uses HTTP redirection where appropriate.Clients should assume that any reguest may result in a
+redirection.Receiving an HTTP redirection is not an error and clients should follow that redirect.Redirect a
+
+responses will have a Location header fieled which contains the URI of the resource to which the client
+should repeat the reguests.
+
