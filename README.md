@@ -116,4 +116,14 @@ Status: 200 OK
      "public_repo"
    ]
  }
+ Accept
+ Example
  
+ This example removes two of three assignees leaving octocat assignee.
+ {
+ "assignees": [
+   "hubot",
+   "other_user"
+ ]
+}
+
