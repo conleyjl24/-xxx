@@ -87,3 +87,11 @@ redirection.Receiving an HTTP redirection is not an error and clients should fol
 responses will have a Location header fieled which contains the URI of the resource to which the client
 should repeat the reguests.
 
+Pagination
+
+Reguests that return multiple items will be paginated to 30 items by default.You can specify further
+pages with the ?page parameter.For some resources you can also set a custom page size up to 100
+
+with the ?per_page parameter.Note that for technical reasons not all endpoints respect the ?per_page
+parameter,see events for example.
+
