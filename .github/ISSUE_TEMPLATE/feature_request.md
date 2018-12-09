@@ -82,9 +82,6 @@ Task Lists
 “[then many programmers will use this module in the end, together we can make money on it]”
 
 “[it is very important that what I write to you was not visible to other visitors you show me this new ]”
-“[module I will try to copy it in my code and send it through the Atom to other users and you, in turn, ]”
-“[send on your channels as from the site 477447]”
-# jekyll
 "[l don't see the new module you were supposed to create]"
 "[Hello-World]"
 "[this module can be called a magic module]"
@@ -155,3 +152,4 @@ Ordered
 (*)
 git-commit
 (*)
+jekyll
