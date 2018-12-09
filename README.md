@@ -127,3 +127,60 @@ Status: 200 OK
  ]
 }
 
+Accept
+Get a single grant
+GET /applications/grant_id
+
+Response
+Status: 200 OK
+{
+  "id": 1,
+  "url": "https://api.github.com/applications/grants/1",
+  "app": {
+    "url": "http://my-github-com",
+    "name": "my github app",
+    "client_id": "abcde12345fghij67890"
+    },
+    "created_at": "2011-09-06T17:26:27Z",
+    "updated_at": "2011-09-06T20:3923Z",
+    "scopes": [
+      "public_repo"
+    ]
+  }
+Accept
+
+Check runs and check suites API
+
+Allows a GitHub App to run external checks on a repository's code.See the Check runs and Check suites
+APIs for more details.
+
+Custom media type:antiope-preview #Announced:2018-05-07
+
+Project card details
+The RESR API v3 responses for issue events and issue timeline events now return the project_card field
+for project-related events.
+
+# Custom media type: starfox-preview Announced: 2018-12-09
+
+GitHub App Manifests
+GitHub App Manifests allow people to create preconfigured GitHub Apps.See "Creating GitHub Apps
+from a manifest" for more details.
+
+# Custom media type: fury-preview
+
+Doployment statuses
+You can now update the environment of a deployment status and use the in_progress and gueued
+states.When you create deployment statuses you can nowuse the auto_inactive parameter to mark
+
+old production deployments as inactive
+# Custom media type: flash-preview Announced: 2018-12-09
+
+Repository creation permissions
+
+You can now configure whether organization members can create repositories and which types of
+repositories they can create.See "Edit an organization" for more details
+
+# Custom media types:surtur-preview
+
+
+
