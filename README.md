@@ -127,3 +127,24 @@ Status: 200 OK
  ]
 }
 
+Accept
+Get a single grant
+GET /applications/grant_id
+
+Response
+Status: 200 OK
+{
+  "id": 1,
+  "url": "https://api.github.com/applications/grants/1",
+  "app": {
+    "url": "http://my-github-com",
+    "name": "my github app",
+    "client_id": "abcde12345fghij67890"
+    },
+    "created_at": "2011-09-06T17:26:27Z",
+    "updated_at": "2011-09-06T20:3923Z",
+    "scopes": [
+      "public_repo"
+    ]
+  }
+  
