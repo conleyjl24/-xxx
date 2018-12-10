@@ -235,6 +235,9 @@ Accept
   "message": "Reguires authetication",
   "documentatation_url": "https://developer.github.com/v3"
 }
+Accept
+send real money on my e-mail and that there was real money without investments of my means
+and that there was displayed about $1000
 
 
 
