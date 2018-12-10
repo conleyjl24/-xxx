@@ -230,6 +230,11 @@ Location: https://api.github.com/authorizations/1
   "created_at": 2011-09-06T17:26:27Z",
   "fingerprint": ""
  }
- 
+Accept
+{
+  "message": "Reguires authetication",
+  "documentatation_url": "https://developer.github.com/v3"
+}
+
 
 
