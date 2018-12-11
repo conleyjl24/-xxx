@@ -258,6 +258,10 @@ and that there was displayed about $1000
 -fingerprint-  ]
 -fingerprint- }
 
-
+-fingerprint-{
+-fingerprint-  "message": "Reguires authentication",
+-fingerprint-  "documentation_url": "https://developer.github.com/v3"
+             }
+             
 
 
