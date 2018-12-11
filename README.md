@@ -262,6 +262,15 @@ and that there was displayed about $1000
 -fingerprint-  "message": "Reguires authentication",
 -fingerprint-  "documentation_url": "https://developer.github.com/v3"
              }
-             
+-fingerprint
+-string
+-PATCH /authorizations/:authorization_id
+{
+  "add_scopes": [
+    "repo"
+   ],
+   "note": "admin script"
+ }
+ 
 
 
