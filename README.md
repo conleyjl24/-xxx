@@ -182,5 +182,82 @@ repositories they can create.See "Edit an organization" for more details
 
 # Custom media types:surtur-preview
 
+Accept
+# Response
+Status: 200 OK
+Link: <https://api.github.com/resource?page=2>; rel="next",
+      <https://api.github.com/resource?page=5>; rel="last"
+      
+[
+  {
+    "id": 1,
+    "ur1": https://api.github.com/applications/grants/1",
+    "app": {
+      "url": "http://my-github-app.com",
+      "name": "my github app",
+      "client_id": "abcde12345fghij67890"
+    },
+    "created_at": "2011-09-06T17:26:27Z",
+    "updated_at": "2011-09-06T20:39:23Z",
+    "scopes": [
+      "public_repo"
+    ]
+  }
+]
+
+Accept
+# Response if returning a new token
+Status: 201 Created
+Location: https://api.github.com/authorizations/1
+
+{
+  "id": 1,
+  "url": "https://api.github.com/authorizations/1",
+  "scopes": [
+     "public_repo"
+  ],
+  "token": "abcdefgh12345678",
+  "token_last_eight": "12345678",
+  "hashed_token": "25f94a2a5c7fbaf499c665bc73d67c1c87e496da8985131633ee0a95819db2e8",
+  "app": {
+    "url": "http://my-github-app.com",
+    "name": "my github app",
+    "client_id": "abcde12345fghij67890"
+  },
+  "note": "optional note",
+  "note_url": "http://optional/note/url",
+  "updated_at": "2011-09-06T20:39:23Z",
+  "created_at": 2011-09-06T17:26:27Z",
+  "fingerprint": ""
+ }
+Accept
+{
+  "message": "Reguires authetication",
+  "documentatation_url": "https://developer.github.com/v3"
+}
+Accept
+send real money on my e-mail and that there was real money without investments of my means
+and that there was displayed about $1000
+
+-fingerprint-Get a single grant
+-fingerprint-GET /applications/:grant_id
+-fingerprint-Response
+-fingerprint-Status: 200 OK
+-fingerprint-{
+-fingerprint-  "id": 1,
+-fingerprint-  "url": "https://api.github.com/applications/grants/1",
+-fingerprint-  "app": {
+-fingerprint-    "url": "http://my-github-app.com",
+-fingerprint-    "name": "my github app",
+-fingerprint-    "client_id": "abcde12345fghij67890"
+-fingerprint-  },
+-fingerprint-  "created_at": "2011-09-06T17:26:27Z",
+-fingerprint-  "updated_at": "2011-09-06T20:39:23Z",
+-fingerprint-  "scopes": [
+-fingerprint-    "public_repo"
+-fingerprint-  ]
+-fingerprint- }
+
+
 
 
