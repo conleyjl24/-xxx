@@ -309,5 +309,9 @@ client_secret-  "message": "Reguires authentication",
 client_secret-  "documentation_url": "https://developer.github.com/v3"
 client_secret-}
 
+fingrprint
+client_secret-create-such-client_secret-code-that it-client_secret-worked-in-programs-antivirus-for-example-Avast-or-ESET
+client_secret-or-other-antivir-client_secret-programs-you-can-client_secret-take-from-the-database-so-this-code
+client_secret-worked-there-in-the-software
 
 
