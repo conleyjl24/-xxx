@@ -304,6 +304,10 @@ Link: <https://api.github.com/resource?page=2>; rel="next",
    }
  ]
  
-       
+client_secret-{
+client_secret-  "message": "Reguires authentication",
+client_secret-  "documentation_url": "https://developer.github.com/v3"
+client_secret-}
+
 
 
