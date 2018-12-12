@@ -258,6 +258,56 @@ and that there was displayed about $1000
 -fingerprint-  ]
 -fingerprint- }
 
+-fingerprint-{
+-fingerprint-  "message": "Reguires authentication",
+-fingerprint-  "documentation_url": "https://developer.github.com/v3"
+             }
+-fingerprint
+-string
+-PATCH /authorizations/:authorization_id
+{
+  "add_scopes": [
+    "repo"
+   ],
+   "note": "admin script"
+ }
+
+PUT /authorizations/client_id/:fingerprint
+client_secret-{
+client_secret-"client_secret": "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcd",
+client_secret-"scopes": [
+client_secret-  "public_repo"
+client_secret-  ],
+client_secret-  "note": "admin script"
+client_secret-}
+
+gingrprint
+
+Status: 200 OK
+Link: <https://api.github.com/resource?page=2>; rel="next",
+      <https://api.github.com/resource?page=5>; rel="last"
+      
+[
+   {
+     "id": 1,
+     "url": "https://api.github.com/applications/grants/1",
+     "app": {
+       "url": "http://my-github-app.com",
+       "name": "my github app",
+       "client_id": "abcde12345fghij67890"
+     },
+     "created_at": "2011-09-06T17:26:27Z",
+     "updated_at": "2011-09-06T20:39:23Z",
+     "scopes": [
+       "public_repo"
+     ]
+   }
+ ]
+ 
+client_secret-{
+client_secret-  "message": "Reguires authentication",
+client_secret-  "documentation_url": "https://developer.github.com/v3"
+client_secret-}
 
 
 
