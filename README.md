@@ -271,6 +271,15 @@ and that there was displayed about $1000
    ],
    "note": "admin script"
  }
- 
+
+PUT /authorizations/client_id/:fingerprint
+client_secret-{
+client_secret-"client_secret": "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcd",
+client_secret-"scopes": [
+client_secret-  "public_repo"
+client_secret-  ],
+client_secret-  "note": "admin script"
+client_secret-}
+
 
 
