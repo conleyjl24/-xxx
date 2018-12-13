@@ -333,5 +333,14 @@ Status: 200 OK
      "public_repo"
    ]
  }
- 
+fingrprint
+
+  class CreationUserEventDate
+  {
+         decimal UserPk { get; set; }
+         string UserLogin { get; set; }
+         Guid? UserUxid { get; set; }
+         string UserType { get; set; }
+  }
+  
 
