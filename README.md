@@ -343,4 +343,15 @@ fingrprint
          string UserType { get; set; }
   }
   
+app_id   integer
+
+{
+    "auto_trigger_checks": [{
+        "app_id": 4,
+        "setting": false
+     }]
+}
+
+#Auto detect text filles and perform LF normalization
+* text-auto
 
