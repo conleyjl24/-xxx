@@ -355,3 +355,24 @@ app_id   integer
 #Auto detect text filles and perform LF normalization
 * text-auto
 
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
+
+# other files and folders
+settings/
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
+
+# project files, i.e. project , .actionScriptproperties and .flexProperties
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
+
+
+
