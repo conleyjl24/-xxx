@@ -352,3 +352,6 @@ app_id   integer
      }]
 }
 
+#Auto detect text filles and perform LF normalization
+* text-auto
+
