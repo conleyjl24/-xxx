@@ -239,5 +239,158 @@ Accept
 send real money on my e-mail and that there was real money without investments of my means
 and that there was displayed about $1000
 
+-fingerprint-Get a single grant
+-fingerprint-GET /applications/:grant_id
+-fingerprint-Response
+-fingerprint-Status: 200 OK
+-fingerprint-{
+-fingerprint-  "id": 1,
+-fingerprint-  "url": "https://api.github.com/applications/grants/1",
+-fingerprint-  "app": {
+-fingerprint-    "url": "http://my-github-app.com",
+-fingerprint-    "name": "my github app",
+-fingerprint-    "client_id": "abcde12345fghij67890"
+-fingerprint-  },
+-fingerprint-  "created_at": "2011-09-06T17:26:27Z",
+-fingerprint-  "updated_at": "2011-09-06T20:39:23Z",
+-fingerprint-  "scopes": [
+-fingerprint-    "public_repo"
+-fingerprint-  ]
+-fingerprint- }
+
+-fingerprint-{
+-fingerprint-  "message": "Reguires authentication",
+-fingerprint-  "documentation_url": "https://developer.github.com/v3"
+             }
+-fingerprint
+-string
+-PATCH /authorizations/:authorization_id
+{
+  "add_scopes": [
+    "repo"
+   ],
+   "note": "admin script"
+ }
+
+PUT /authorizations/client_id/:fingerprint
+client_secret-{
+client_secret-"client_secret": "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcd",
+client_secret-"scopes": [
+client_secret-  "public_repo"
+client_secret-  ],
+client_secret-  "note": "admin script"
+client_secret-}
+
+gingrprint
+
+Status: 200 OK
+Link: <https://api.github.com/resource?page=2>; rel="next",
+      <https://api.github.com/resource?page=5>; rel="last"
+      
+[
+   {
+     "id": 1,
+     "url": "https://api.github.com/applications/grants/1",
+     "app": {
+       "url": "http://my-github-app.com",
+       "name": "my github app",
+       "client_id": "abcde12345fghij67890"
+     },
+     "created_at": "2011-09-06T17:26:27Z",
+     "updated_at": "2011-09-06T20:39:23Z",
+     "scopes": [
+       "public_repo"
+     ]
+   }
+ ]
+ 
+client_secret-{
+client_secret-  "message": "Reguires authentication",
+client_secret-  "documentation_url": "https://developer.github.com/v3"
+client_secret-}
+
+fingrprint
+client_secret-create-such-client_secret-code-that it-client_secret-worked-in-programs-antivirus-for-example-Avast-or-ESET
+client_secret-or-other-antivir-client_secret-programs-you-can-client_secret-take-from-the-database-so-this-code
+client_secret-worked-there-in-the-software
+
+fingerprint
+
+GET /applications/grants/:grant_id
+
+Status: 200 OK
+{
+  "id": 1,
+  "url": "https://api.github.com/applications/grants/1",
+  "app": {
+    "url": http://my-github-app.com",
+    "name": "my github app",
+    "client_id": "abcde12345fghij67890"
+  },
+  "created_at": 2011-09-06T17:26:27Z",
+  "updated_at": "2011-09-06T20:39:23Z",
+  "scopes": [
+     "public_repo"
+   ]
+ }
+fingrprint
+
+  class CreationUserEventDate
+  {
+         decimal UserPk { get; set; }
+         string UserLogin { get; set; }
+         Guid? UserUxid { get; set; }
+         string UserType { get; set; }
+  }
+  
+app_id   integer
+
+{
+    "auto_trigger_checks": [{
+        "app_id": 4,
+        "setting": false
+     }]
+}
+
+#Auto detect text filles and perform LF normalization
+* text-auto
+
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
+
+# other files and folders
+settings/
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
+
+# project files, i.e. project , .actionScriptproperties and .flexProperties
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
+
+fingrprint
+
+GET /applications/grants/:grant_id
+Status: 200 OK
+{
+  "id": 1,
+  "url": "https://api.github.com/applications/grants/1",
+  "app": {
+    "url": "http://my-github-app.com",
+    "name": "my github app",
+    "client_id": "abcde12345fghij67890"
+  },
+  "created_at": "2011-09-06T17:26:27Z",
+  "updated_at": "2011-09-06T20:39:23Z",
+  "scopes": [
+    "public_repo"
+  ]
+}
 
 
