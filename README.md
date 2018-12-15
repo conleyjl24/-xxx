@@ -392,5 +392,21 @@ Status: 200 OK
     "public_repo"
   ]
 }
-
+GET /applications/:grant_id
+Status: 200 OK
+{
+  "id": 1,
+  "url": "https://api.github.com/applications/grants/1",
+  "app": {
+    "url": "http://my-github-app.com",
+    "name": "my github app",
+    "client_id": "abcde12345fghij67890"
+   },
+   "created_at": "2011-09-06T17:26:27Z",
+   "updated_at": "2011-09-06T20:39:23Z",
+   "scopes": [
+     "public_repo"
+   ]
+ }
+ 
 
