@@ -409,4 +409,6 @@ Status: 200 OK
    ]
  }
  
+  "documentation url": "https://developer.github.com/v3/#rate-limiting"
+}
 
