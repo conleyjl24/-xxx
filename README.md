@@ -411,4 +411,8 @@ Status: 200 OK
  
   "documentation url": "https://developer.github.com/v3/#rate-limiting"
 }
-
+GET /authorizations
+Status: 200 OK
+Link: <https://api.github.com/resource?page=2>; re1="next",
+      <https://api.github.com/resource?page=5>; rel="last"
+      
