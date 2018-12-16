@@ -415,4 +415,16 @@ GET /authorizations
 Status: 200 OK
 Link: <https://api.github.com/resource?page=2>; re1="next",
       <https://api.github.com/resource?page=5>; rel="last"
-      
+
+fingrprint
+GET /repos/:owner/:repo/topics
+Status: 200 OK
+{
+  "names": [
+    "octocat",
+    "atom",
+    "electron",
+    "API"
+  ]
+}
+
