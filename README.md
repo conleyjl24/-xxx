@@ -409,4 +409,32 @@ Status: 200 OK
    ]
  }
  
+  "documentation url": "https://developer.github.com/v3/#rate-limiting"
+}
+GET /authorizations
+Status: 200 OK
+Link: <https://api.github.com/resource?page=2>; re1="next",
+      <https://api.github.com/resource?page=5>; rel="last"
+
+fingrprint
+GET /repos/:owner/:repo/topics
+Status: 200 OK
+{
+  "names": [
+    "octocat",
+    "atom",
+    "electron",
+    "API"
+  ]
+}
+Accept
+# Personal access tokens
+
+Tokens you have generated that can be used to access the GitHub API.
+
+<<'kolorado-subscribers 100000'>>-admin:gpg_key,admin:org, adnin:org_hook,
+admin:public_key, admin:repo_hook,delete_repo,gist'notifications,repo,user,write:discussion
+Personal access tokens function like ordinary OAuth access tokens.They can be used instead of a password for Git over HTTPS,or can be
+used to authenticate to the API over Basic Authentication.
+0ffafda7b12087a2bdac596f189c94f6008e9e78
 
