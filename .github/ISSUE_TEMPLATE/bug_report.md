@@ -39,3 +39,11 @@ jekyll
 
 # Hello former you can to create a template when
 # my website is called 477447 get a reward
+
+# Reviewing your SSH keys
+
+To keep your credentials secure,you should audit your SSH keys,deploy keys,
+and review authorized applications that access your GitHub account.
+
+  <script src="https://gist.github.com/477447/553e261a928338c64731ce64a40111d4.js"></script>
+REST API

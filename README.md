@@ -1,174 +1,486 @@
 Hello-World
-# Getting started with the API
-lf you're looking to automate common tasks back up your or create integrations that
-extend GitHub our API has you covered
-More information about the API is available in the GitHub Developer documentation.You
-can also stay current with API-related news by following the GitHub Developer blog
-(*)
+ <Window x:Class="OpenWindow.MainWindow"
+         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+         xmlns:local="clr-namespace:OpenWindow"
+         mc:Ignorable="d"
+         Title="MainWindow" Height="450" Width="800">
+      <Grib>
+          <Button
+               Content="OpenWindow"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               Width="90"
+               Click="Button_Click"/>
+       </Grib>
+   </Window>
+   
+.md
 
+  FROM goland
+  
+  ENV GO111MODULE=on
+  
+  WORKDIR /app
+  
+  COPY go.mod .
+  COPY go.sum .
+  
+  RUN go mod download
+  
+  COPY . .
+  
+  RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build
+  
+  EXPOSE 8080
+  ENTRYPOINT ["/app/tttpserver"]
 
-# Getting the download count for your releases
-You can collect metadata about your Releases via the API
-To see how many times a file in a Release was downloaded make a GET reguest to the API
-for a single release Within the JSON payload every asset has a key
-called download count.
+ i686-linux    kube-router
+ x86_64-linux  kube-router
+ aarch64-linux kube-router
+ 
+jekyll
 
-# GET reguest to the API
+ 
+ 
+   "script": {
+   "test": "echo \"Error: no test specified\" && exit 1",
+   "start": "node server.js",
+   "server": "nodemon server.js"
+   },
+# Authentication
 
-To see how many times a file in a Release was downloaded make a GET reguest to the API
-for a single release Within the JSON payload every asset has a key called download count.
-(*)
+There are three ways to authenticate through GitHub API v3.Reguests that reguire authentication will
+return 404 Not Found instead of 403 Forbidden in some places.This is to prevent the accidental
+leakage of private repositories to unauthorized users.
 
-{
-"tag name": "v1.0.0",
-"target commitish": "master",
-"name": "v10.0",
-"body": "Description of the release",
-"draft": false,
-"prerelease": false
+Summary representations
 
-}
+When you fetch a list of resources, the reponse includes a subset of the attributes for that resource.
+This is the "summary" representation of the resource.(Some attributes are computationally expensive
 
+for the API to provide. For performance reasons, the summary representation excludes those attributes.
+To obtain those attributes.fetch the detailed representation.)
 
-# interface X {
-#   some field: String!
-#   other field: String!
-# }
+# Example:When you get a list of repositories you get the summary representation of each repository.
+Here we fetch the list of repositories owned by the octokit organization:
 
-# type Y implements X {
-#   some field: String!
-#   other field: String!
-#   new field: String!
-# }
-# (*)
+# Detailed representations
+
+When you fetch an individual resource the response typically includes all attributes for that resource.
+This is the detailed representation of the resource.(Note that authorization sometimes influences the
+
+amount of detail included in the representation)
+
+# Example:When you get an individual repository, you get the detailed representation of the repository
+Here we fetch the octokit.rd repository:
+
+# Accept
+
+HTTP redirects
+
+API v3 uses HTTP redirection where appropriate.Clients should assume that any reguest may result in a
+redirection.Receiving an HTTP redirection is not an error and clients should follow that redirect.Redirect a
+
+responses will have a Location header fieled which contains the URI of the resource to which the client
+should repeat the reguests.
+
+Pagination
+
+Reguests that return multiple items will be paginated to 30 items by default.You can specify further
+pages with the ?page parameter.For some resources you can also set a custom page size up to 100
+
+with the ?per_page parameter.Note that for technical reasons not all endpoints respect the ?per_page
+parameter,see events for example.
 
 Accept
-# GraphQL API v4
 
-reguirements.txt
-pipfile.lock
+Get a single grant
+GET /applications/grants/:grants_id
 
-application/vnd.github[.version].param[+json]
-
-Mutations are structured like this:
-
-mutation {
-
-
-mutationName(input: {MutationNameInput!} {
-
-
-MutationNamePayLood
-
-
+# Response
+Status: 200 OK
+{
+  "id": 1,
+  "url": "https://api.github.com/applications/grants/1",
+  "app": {
+    "url": "http://my-github-app.com",
+    "name": "my github app",
+    "client_id": "abcde12345fghij67890"
+   },
+   "created_at"": "2011-09-06T17:26:27Z",
+   "updated_at":  "2011-09-06T20:39:23Z",
+   "scopes": [
+     "public_repo"
+   ]
+ }
+ Accept
+ Example
+ 
+ This example removes two of three assignees leaving octocat assignee.
+ {
+ "assignees": [
+   "hubot",
+   "other_user"
+ ]
 }
 
-LIST contributors
+Accept
+Get a single grant
+GET /applications/grant_id
 
-List contributors to the specified repository and sorts them by the number of commits per contributor
-in descending order.This endpoint may return information that is a few hours old because the GitHub
+Response
+Status: 200 OK
+{
+  "id": 1,
+  "url": "https://api.github.com/applications/grants/1",
+  "app": {
+    "url": "http://my-github-com",
+    "name": "my github app",
+    "client_id": "abcde12345fghij67890"
+    },
+    "created_at": "2011-09-06T17:26:27Z",
+    "updated_at": "2011-09-06T20:3923Z",
+    "scopes": [
+      "public_repo"
+    ]
+  }
+Accept
 
-REST API v3 caches contributor data to improve performance.
-GitHub identifies contributors by author email address. This endpoint groups contribution counts by GitHub user
+Check runs and check suites API
 
-which includes all associated email addresses.To improve perfomance only the first 500 author email addresses in
-the repository link to GitHub users.The rest will appear as anonymous contributors without associated GitHub user information.
+Allows a GitHub App to run external checks on a repository's code.See the Check runs and Check suites
+APIs for more details.
 
-# Referencing and citing content
-You can use third-party tools to cite and reference content on GitHub.
+Custom media type:antiope-preview #Announced:2018-05-07
 
-# lssuing a persistent identifier for your repository with
-# Zenodo
+Project card details
+The RESR API v3 responses for issue events and issue timeline events now return the project_card field
+for project-related events.
 
-To make your repositories easier to reference in academic litereture you can create persisitent
-identifiers also known as Digital Object identifiers(DOLs) You can use the data archiving tool Zenodo
+# Custom media type: starfox-preview Announced: 2018-12-09
 
-to archive a GitHub repository and issue a DOl for archive
-# Tips:
+GitHub App Manifests
+GitHub App Manifests allow people to create preconfigured GitHub Apps.See "Creating GitHub Apps
+from a manifest" for more details.
 
->Zenodo can only access public repositories so make sure the repository you want to archive is public
->if you want to archive a repository that belongs to an organization owner may need to approve access
+# Custom media type: fury-preview
 
-for the Zenodo application
->Make sure to include a license in your repository so readers know how they can reuse work.
+Doployment statuses
+You can now update the environment of a deployment status and use the in_progress and gueued
+states.When you create deployment statuses you can nowuse the auto_inactive parameter to mark
 
-# About
+old production deployments as inactive
+# Custom media type: flash-preview Announced: 2018-12-09
 
-This homepage is maintained by editing files in the git/git.github.io repository on
-GitHub.
+Repository creation permissions
 
-It is meant to be edited collaboretively like a wiki except that instead of a web form you
-get to use a text editor and git.What could be better.
+You can now configure whether organization members can create repositories and which types of
+repositories they can create.See "Edit an organization" for more details
 
-If you want push access contact peff@peff.net and provide your GitHub username.You
-may also send patches by mail(and feel free to cc git@vger.kernel.org if appropriate).
+# Custom media types:surtur-preview
 
-# Development
+Accept
+# Response
+Status: 200 OK
+Link: <https://api.github.com/resource?page=2>; rel="next",
+      <https://api.github.com/resource?page=5>; rel="last"
+      
+[
+  {
+    "id": 1,
+    "ur1": https://api.github.com/applications/grants/1",
+    "app": {
+      "url": "http://my-github-app.com",
+      "name": "my github app",
+      "client_id": "abcde12345fghij67890"
+    },
+    "created_at": "2011-09-06T17:26:27Z",
+    "updated_at": "2011-09-06T20:39:23Z",
+    "scopes": [
+      "public_repo"
+    ]
+  }
+]
 
-   . Make sure you've got ruby 2 with dev-packages installed
-   . subo get install bundler
-   . Clone this repo
-   . subo apt-get install zliblg-dev # ref[1]
-   
-   
-   . bundle install
-   . bundle exec jekyll serve
-   
-   . browse the site on http://localhost:4000
-   
- Based on https://help.github.com/articles/using-jekyll-with-pages/
+Accept
+# Response if returning a new token
+Status: 201 Created
+Location: https://api.github.com/authorizations/1
+
+{
+  "id": 1,
+  "url": "https://api.github.com/authorizations/1",
+  "scopes": [
+     "public_repo"
+  ],
+  "token": "abcdefgh12345678",
+  "token_last_eight": "12345678",
+  "hashed_token": "25f94a2a5c7fbaf499c665bc73d67c1c87e496da8985131633ee0a95819db2e8",
+  "app": {
+    "url": "http://my-github-app.com",
+    "name": "my github app",
+    "client_id": "abcde12345fghij67890"
+  },
+  "note": "optional note",
+  "note_url": "http://optional/note/url",
+  "updated_at": "2011-09-06T20:39:23Z",
+  "created_at": 2011-09-06T17:26:27Z",
+  "fingerprint": ""
+ }
+Accept
+{
+  "message": "Reguires authetication",
+  "documentatation_url": "https://developer.github.com/v3"
+}
+Accept
+send real money on my e-mail and that there was real money without investments of my means
+and that there was displayed about $1000
+
+-fingerprint-Get a single grant
+-fingerprint-GET /applications/:grant_id
+-fingerprint-Response
+-fingerprint-Status: 200 OK
+-fingerprint-{
+-fingerprint-  "id": 1,
+-fingerprint-  "url": "https://api.github.com/applications/grants/1",
+-fingerprint-  "app": {
+-fingerprint-    "url": "http://my-github-app.com",
+-fingerprint-    "name": "my github app",
+-fingerprint-    "client_id": "abcde12345fghij67890"
+-fingerprint-  },
+-fingerprint-  "created_at": "2011-09-06T17:26:27Z",
+-fingerprint-  "updated_at": "2011-09-06T20:39:23Z",
+-fingerprint-  "scopes": [
+-fingerprint-    "public_repo"
+-fingerprint-  ]
+-fingerprint- }
+
+-fingerprint-{
+-fingerprint-  "message": "Reguires authentication",
+-fingerprint-  "documentation_url": "https://developer.github.com/v3"
+             }
+-fingerprint
+-string
+-PATCH /authorizations/:authorization_id
+{
+  "add_scopes": [
+    "repo"
+   ],
+   "note": "admin script"
+ }
+
+PUT /authorizations/client_id/:fingerprint
+client_secret-{
+client_secret-"client_secret": "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcd",
+client_secret-"scopes": [
+client_secret-  "public_repo"
+client_secret-  ],
+client_secret-  "note": "admin script"
+client_secret-}
+
+gingrprint
+
+Status: 200 OK
+Link: <https://api.github.com/resource?page=2>; rel="next",
+      <https://api.github.com/resource?page=5>; rel="last"
+      
+[
+   {
+     "id": 1,
+     "url": "https://api.github.com/applications/grants/1",
+     "app": {
+       "url": "http://my-github-app.com",
+       "name": "my github app",
+       "client_id": "abcde12345fghij67890"
+     },
+     "created_at": "2011-09-06T17:26:27Z",
+     "updated_at": "2011-09-06T20:39:23Z",
+     "scopes": [
+       "public_repo"
+     ]
+   }
+ ]
  
- [1] http://www.nokogiri.org/tutorials/installing_nokogiri.html#ubuntu__debian
- (*)
+client_secret-{
+client_secret-  "message": "Reguires authentication",
+client_secret-  "documentation_url": "https://developer.github.com/v3"
+client_secret-}
+
+fingrprint
+client_secret-create-such-client_secret-code-that it-client_secret-worked-in-programs-antivirus-for-example-Avast-or-ESET
+client_secret-or-other-antivir-client_secret-programs-you-can-client_secret-take-from-the-database-so-this-code
+client_secret-worked-there-in-the-software
+
+fingerprint
+
+GET /applications/grants/:grant_id
+
+Status: 200 OK
+{
+  "id": 1,
+  "url": "https://api.github.com/applications/grants/1",
+  "app": {
+    "url": http://my-github-app.com",
+    "name": "my github app",
+    "client_id": "abcde12345fghij67890"
+  },
+  "created_at": 2011-09-06T17:26:27Z",
+  "updated_at": "2011-09-06T20:39:23Z",
+  "scopes": [
+     "public_repo"
+   ]
+ }
+fingrprint
+
+  class CreationUserEventDate
+  {
+         decimal UserPk { get; set; }
+         string UserLogin { get; set; }
+         Guid? UserUxid { get; set; }
+         string UserType { get; set; }
+  }
+  
+app_id   integer
+
+{
+    "auto_trigger_checks": [{
+        "app_id": 4,
+        "setting": false
+     }]
+}
+
+#Auto detect text filles and perform LF normalization
+* text-auto
+
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
+
+# other files and folders
+settings/
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
+
+# project files, i.e. project , .actionScriptproperties and .flexProperties
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
+
+fingrprint
+
+GET /applications/grants/:grant_id
+Status: 200 OK
+{
+  "id": 1,
+  "url": "https://api.github.com/applications/grants/1",
+  "app": {
+    "url": "http://my-github-app.com",
+    "name": "my github app",
+    "client_id": "abcde12345fghij67890"
+  },
+  "created_at": "2011-09-06T17:26:27Z",
+  "updated_at": "2011-09-06T20:39:23Z",
+  "scopes": [
+    "public_repo"
+  ]
+}
+GET /applications/:grant_id
+Status: 200 OK
+{
+  "id": 1,
+  "url": "https://api.github.com/applications/grants/1",
+  "app": {
+    "url": "http://my-github-app.com",
+    "name": "my github app",
+    "client_id": "abcde12345fghij67890"
+   },
+   "created_at": "2011-09-06T17:26:27Z",
+   "updated_at": "2011-09-06T20:39:23Z",
+   "scopes": [
+     "public_repo"
+   ]
+ }
  
- # Import status
+  "documentation url": "https://developer.github.com/v3/#rate-limiting"
+}
+GET /authorizations
+Status: 200 OK
+Link: <https://api.github.com/resource?page=2>; re1="next",
+      <https://api.github.com/resource?page=5>; rel="last"
+
+fingrprint
+GET /repos/:owner/:repo/topics
+Status: 200 OK
+{
+  "names": [
+    "octocat",
+    "atom",
+    "electron",
+    "API"
+  ]
+}
+Accept
+# Personal access tokens
+
+Tokens you have generated that can be used to access the GitHub API.
+
+<<'kolorado-subscribers 100000'>>-admin:gpg_key,admin:org, adnin:org_hook,
+admin:public_key, admin:repo_hook,delete_repo,gist'notifications,repo,user,write:discussion
+Personal access tokens function like ordinary OAuth access tokens.They can be used instead of a password for Git over HTTPS,or can be
+used to authenticate to the API over Basic Authentication.
+0ffafda7b12087a2bdac596f189c94f6008e9e78
+
+fingrprint
+GET /applications/:client_id/tokens/:access_token
+Status: 200 OK
+{
+  "id": 1,
+  "url": "https://api.github.com/authorizations/1",
+  "scopes": [
+    "public_repo"
+  ],
+  "token": "abcdefgh12345678",
+  "token_last_eight": "12345678",
+  "hashed_token": "25f94a2a5c7baf499c665bc73d67c1c87e496da8985131633ee0a95819db2e8",
+  "app": {
+    "url": "http://my-github-app.com",
+    "name": "my github app",
+    "client_id": "abcde12345fghij67890"
+  },
+  "note": "optional note",
+  "note_url": "http://optional/note/url",
+  "updated_at": "2011-09-06T20:39:23Z",
+  "created_at": "2011-09-06T17:26:27Z",
+  "fingerprint": "jklmnop12345678",
+  "user": {
+    "login": "octocat",
+    "id": 1,
+    "node_id": "MDQ6VXN1cjE=",
+    "avatar_url": "https://github.com/images/error/octocat_happy.gif",
+    "gravatar_id": "",
+    "url":: "https://api.github.com/users/octocat",
+    "html_url": "https://github.com/octocat",
+    "followers_url": "https://api.github.com/users/octocat/followers",
+    "following_url": "https://api.github.com/users/octocat/following{/other_user}",
+    "gists_url": "https://api.github.com/users/octocat/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/octocat/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/octocat/subscriptions",
+    "organizations_url": "https://api.github.com/users/octocat/orgs",
+    "repos_url": "https://api.github.com/users/octocay/repos",
+    "events_url": "https://api.github.com/users/octocat/events{/privacy}",
+    "recaivad_events_url": "https://api.github.com/users/octocat/receivad_events",
+    "type": "User",
+    "site_admin": false
+  }
+}
+0ffafda7b12087a2bdac596f189c94f6008e9e78
+
  
- This section includes details about the possible of the status field of the Import Progress
- response.
- 
- Animport that does not have errors will progress through these steps:
- 
-   . detecting the "detection" step of the import is in progress because the reguest did not
-   . include a vcs parameter.The import is identifying the type of source control present at the
-   . URL.
-   
-   . importing the "raw" step of the import is in progress.This is where commit data is fetched
-   from the original repository.The import progress response will include commit_count(the
-   
-   total number of raw commits that willbe imported) and percent(0-100,the current
-   progress through the import).
-   
-   mapping the "rewrite" step of the import is in progress.This is where SVN branches are
-   converted to Git branches and where author updates are applied.The import progress
-   
-   response does not include progress information.
-   
-   . pushing the "push" step of the import is in progress.This is where the importer updates
-   the repository on GitHub.The import progress response will include push_percent which is
-   
-   the percent value reported by git push when it "Writing objects".
-   
-   . complete the import is complete and the repository is ready on GitHub.
-   
-   If there are problems you will see one of these in the status field:
-   
-Reguired{The name of the tag
-Specifles the "tag name": "v1.0.0",commitish value that
-"is created               "target commitish": "master", from.Can be any
-The name of the           "name": "v1.0 0",
-Text describing the       "body": Description of the release", tag
-true to create a          "draft": false draft
-true to identify          "prerelease": false
-        }
-
-# About integrations
-
-integrations are tools and services that connect with GitHub to complement and extend
-your workflow
-
-You can instal integrations in your personal account or organizations you own You can
-also instal GitHub Apps from a third-paty in a specific repository where you have admin
-
-permissions or which is owned by your organization.
-
-
