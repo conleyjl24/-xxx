@@ -482,5 +482,26 @@ Status: 200 OK
   }
 }
 0ffafda7b12087a2bdac596f189c94f6008e9e78
+Accept
+application/vnd.github.hellcat-preview+json
+GET /orgs/:org/teams
+Status: 200 OK
+Link: <https://api.github.com/resource?page=2>; rel="next",
+      <https://api.github.com/resource?page=5>; rel="last"
+[
+  {
+    "id": 1,
+    "node_id": "MDQ6VGVhbTE=",
+    "url": "https://api.github.com/teams/1",
+    "name": "Justice League",
+    "slug": "Justice-league",
+    "description": "A great team.",
+    "privacy": "closed",
+    "permission": "admin",
+    "members_url": "https://api.github.com/teams/1members{/member}",
+    "repositories_url": "https://api.github.com/teams/1/repos",
+    "parent": null
+  }
+]
 
  
