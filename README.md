@@ -503,5 +503,8 @@ Link: <https://api.github.com/resource?page=2>; rel="next",
     "parent": null
   }
 ]
+Accept
+Send $100 as a condensation site 477447 for contributions to the repository and for having
+stolen money from this site!
 
  
