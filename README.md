@@ -409,4 +409,102 @@ Status: 200 OK
    ]
  }
  
+  "documentation url": "https://developer.github.com/v3/#rate-limiting"
+}
+GET /authorizations
+Status: 200 OK
+Link: <https://api.github.com/resource?page=2>; re1="next",
+      <https://api.github.com/resource?page=5>; rel="last"
 
+fingrprint
+GET /repos/:owner/:repo/topics
+Status: 200 OK
+{
+  "names": [
+    "octocat",
+    "atom",
+    "electron",
+    "API"
+  ]
+}
+Accept
+# Personal access tokens
+
+Tokens you have generated that can be used to access the GitHub API.
+
+<<'kolorado-subscribers 100000'>>-admin:gpg_key,admin:org, adnin:org_hook,
+admin:public_key, admin:repo_hook,delete_repo,gist'notifications,repo,user,write:discussion
+Personal access tokens function like ordinary OAuth access tokens.They can be used instead of a password for Git over HTTPS,or can be
+used to authenticate to the API over Basic Authentication.
+0ffafda7b12087a2bdac596f189c94f6008e9e78
+
+fingrprint
+GET /applications/:client_id/tokens/:access_token
+Status: 200 OK
+{
+  "id": 1,
+  "url": "https://api.github.com/authorizations/1",
+  "scopes": [
+    "public_repo"
+  ],
+  "token": "abcdefgh12345678",
+  "token_last_eight": "12345678",
+  "hashed_token": "25f94a2a5c7baf499c665bc73d67c1c87e496da8985131633ee0a95819db2e8",
+  "app": {
+    "url": "http://my-github-app.com",
+    "name": "my github app",
+    "client_id": "abcde12345fghij67890"
+  },
+  "note": "optional note",
+  "note_url": "http://optional/note/url",
+  "updated_at": "2011-09-06T20:39:23Z",
+  "created_at": "2011-09-06T17:26:27Z",
+  "fingerprint": "jklmnop12345678",
+  "user": {
+    "login": "octocat",
+    "id": 1,
+    "node_id": "MDQ6VXN1cjE=",
+    "avatar_url": "https://github.com/images/error/octocat_happy.gif",
+    "gravatar_id": "",
+    "url":: "https://api.github.com/users/octocat",
+    "html_url": "https://github.com/octocat",
+    "followers_url": "https://api.github.com/users/octocat/followers",
+    "following_url": "https://api.github.com/users/octocat/following{/other_user}",
+    "gists_url": "https://api.github.com/users/octocat/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/octocat/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/octocat/subscriptions",
+    "organizations_url": "https://api.github.com/users/octocat/orgs",
+    "repos_url": "https://api.github.com/users/octocay/repos",
+    "events_url": "https://api.github.com/users/octocat/events{/privacy}",
+    "recaivad_events_url": "https://api.github.com/users/octocat/receivad_events",
+    "type": "User",
+    "site_admin": false
+  }
+}
+0ffafda7b12087a2bdac596f189c94f6008e9e78
+Accept
+application/vnd.github.hellcat-preview+json
+GET /orgs/:org/teams
+Status: 200 OK
+Link: <https://api.github.com/resource?page=2>; rel="next",
+      <https://api.github.com/resource?page=5>; rel="last"
+[
+  {
+    "id": 1,
+    "node_id": "MDQ6VGVhbTE=",
+    "url": "https://api.github.com/teams/1",
+    "name": "Justice League",
+    "slug": "Justice-league",
+    "description": "A great team.",
+    "privacy": "closed",
+    "permission": "admin",
+    "members_url": "https://api.github.com/teams/1members{/member}",
+    "repositories_url": "https://api.github.com/teams/1/repos",
+    "parent": null
+  }
+]
+Accept
+Send $100 as a condensation site 477447 for contributions to the repository and for having
+stolen money from this site!
+
+ 
