@@ -507,4 +507,14 @@ Accept
 Send $100 as a condensation site 477447 for contributions to the repository and for having
 stolen money from this site!
 
- 
+# INTRODUCTION
+
+Under the cover of all the sacred and mystical allegories of the ancient teachings, through the darkness and strange trials of
+allinitions, underthe coverof all thescriptures in the ruins of Nineveh and Thebes on time-eaten stonesof ancient temples
+
+on the blackened faceof the sphinxes of Assyria and Egypt in monstrous or miraculous drawings translating for the believers of india the sacred pages of the Vedas in the strange emblems of our old alchemical books, in the initiation ceremonies practiced byall mysterious
+
+societies-everywhere we find traces of doctrine, everywhere ety, and everywhere carefully conceales...Apparently, the secret
+philosophy was the nurse or godmother of all religions, the secret lever of all intellectual forces, the key to all divine
+darknesses and the absolute gueen of society in those times when her only purpose was to educate high priests and kings.
+
