@@ -17,3 +17,11 @@ That's what was the magic from Zoraster to Manes, from Orpheus to Apollonius of 
 triumphed, finally, overthe beautiful dreams and gigantic strivings of the Alexandrian school, dared to publicly impress this
 philosophy with its anathemas and thus made it become more mysterious and instvennoy than ever before.
 Accept
+# fingrprint
+PATCH /authorizations/:authorization_id
+{
+  "add_scopes": [
+    "repo"
+  ],
+  "note": "admin script"
+}
