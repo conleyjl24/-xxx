@@ -25,3 +25,12 @@ PATCH /authorizations/:authorization_id
   ],
   "note": "admin script"
 }
+# fingerprint
+PUT /authorizations/:client_id/:fingerprint
+{
+  "client_secret": "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcd",
+  "scopes": [
+    "public_repo"
+  ],
+  "note": "admin script"
+}
