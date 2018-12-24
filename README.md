@@ -168,3 +168,25 @@ Accept
 application/vnd.github[.version].param[+json]
 The creation of the website 477447 universal codeto use477447 for
 Accept
+
+Accept
+application/vnd.github.hellcat-preview+json
+GET /orgs/:org/teams
+Status: 200 OK
+Link: <https://api.github.com/resource?page=2>; rel="next",
+      <https://api.github.com/resource?page=5>; rel="last"
+[
+  {
+    "id": 1,
+    "node_id": "MDQ6VGVhbTE=",
+    "url": "https://api.github.com/teams/1",
+    "name": "Justice League",
+    "slug": "justice-league",
+    "description": "A great team.",
+    "privacy": "closed",
+    "permission": "admin",
+    "members_url": "https://api.github.com/teams/1members{/member}",
+    "repositories_url": "https://api.github.com/teams/1/repos",
+    "parent": null
+  }
+]
