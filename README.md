@@ -253,5 +253,7 @@ into three digits and these digits are then divided again by three.All these rev
 and number.Unity must multiply in order to become active indivisible motionless and sterile principle would be unity dead and incomprehe
 
 nsible.
+like a Lily among thorns is the congregation of israel!
+*
 
 
