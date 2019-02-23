@@ -255,11 +255,3 @@ and number.Unity must multiply in order to become active indivisible motionless 
 nsible.
 
 *
-# Accept
-application/vnd.github.hellcat-preview+json
-67 is a genius
-God is the Comforter of the chidren of men Aael
-God's name be comforted by the Lord and He will fulfill the desire of your heart
-
-   
-
