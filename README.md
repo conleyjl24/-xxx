@@ -496,5 +496,88 @@ Using the last known timezone for the user
 If no Time-Zone header is specified and you make an authenticated call to the API, we use the last known timezone for the authenticated user. The last known timezone is updated whenever you browse the GitHub website.
 Defaulting to UTC without other timezone information
 If the steps above don't result in any information, we use UTC as the timezone to create the git commit.
+# Gemfile
+    REST API v3
+•	Reference
+ 
+•	Guides
+ 
+•	Libraries
+Media Types
+i.	Comment body properties
+ii.	Git blob properties
+iii.	Commits, commit comparison, and pull requests
+iv.	Repository contents
+v.	Gists
+Custom media types are used in the API to let consumers choose the format of the data they wish to receive. This is done by adding one or more of the following types to the Accept header when you make a request. Media types are specific to resources, allowing them to change independently and support formats that other resources don't.
+All GitHub media types look like this:
+application/vnd.github[.version].param[+json]
+The most basic media types the API supports are:
+application/json
+application/vnd.github+json
+Neither of these specify a version, so you will always get the current default JSON representation of resources.
+Important: The default version of the API may change in the future. If you're building an application and care about the stability of the API, be sure to request a specific version in the Accept header as shown in the examples below.
+You can specify a version like so:
+application/vnd.github.v3+json
+If you're specifying a property (such as full/raw/etc defined below), put the version before the property:
+application/vnd.github.v3.raw+json
+You can check the current version through every response's headers. Look for the X-GitHub-Media-Typeheader:
+curl https://api.github.com/users/technoweenie -I
+HTTP/1.1 200 OK
+X-GitHub-Media-Type: github.v3
+curl https://api.github.com/users/technoweenie -I \
+ -H "Accept: application/vnd.github.full+json"
+HTTP/1.1 200 OK
+X-GitHub-Media-Type: github.v3; param=full; format=json
+curl https://api.github.com/users/technoweenie -I \
+ -H "Accept: application/vnd.github.v3.full+json"
+HTTP/1.1 200 OK
+X-GitHub-Media-Type: github.v3; param=full; format=json
+Comment body properties
+The body of a comment can be written in GitHub Flavored Markdown. issues, issue comments, pull request comments, and the gist comments APIs all accept these same media types:
+Raw
+application/vnd.github.VERSION.raw+json
+Return the raw markdown body. Response will include body. This is the default if you do not pass any specific media type.
+Text
+application/vnd.github.VERSION.text+json
+Return a text only representation of the markdown body. Response will include body_text.
+HTML
+application/vnd.github.VERSION.html+json
+Return HTML rendered from the body's markdown. Response will include body_html.
+Full
+application/vnd.github.VERSION.full+json
+Return raw, text and HTML representations. Response will include body, body_text, and body_html:
+Git blob properties
+The following media types are allowed when getting a blob:
+JSON
+application/vnd.github.VERSION+json
+application/json
+Return JSON representation of the blob with content as a base64 encoded string. This is the default if nothing is passed.
+Raw
+application/vnd.github.VERSION.raw
+Return the raw blob data.
+Commits, commit comparison, and pull requests
+The commits API and pull requests API support diff and patch formats:
+diff
+application/vnd.github.VERSION.diff
+patch
+application/vnd.github.VERSION.patch
+sha
+application/vnd.github.VERSION.sha
+Repository contents
+Raw
+application/vnd.github.VERSION.raw
+Return the raw contents of a file. This is the default if you do not pass any specific media type.
+HTML
+application/vnd.github.VERSION.html
+For markup files such as Markdown or AsciiDoc, you can retrieve the rendered HTML using the .htmlmedia type. Markup languages are rendered to HTML using our open-source Markup library.
+Gists
+Raw
+application/vnd.github.VERSION.raw
+Return the raw contents of a gist. This is the default if you do not pass any specific media type.
+base64
+application/vnd.github.VERSION.base64
+The gist contents are base64-encoded before being sent out. This can be useful if your gist contains any invalid UTF-8 sequences.
+
 
 
