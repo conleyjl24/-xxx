@@ -579,5 +579,22 @@ base64
 application/vnd.github.VERSION.base64
 The gist contents are base64-encoded before being sent out. This can be useful if your gist contains any invalid UTF-8 sequences.
 
+# Gemfile
+def f (a,b):
+     print a, b
+     
+     f(b=1, *(2,))
+     2 1
+     f(a=1,  *(2,))
+     Traceback  (most recent call last):
+       File "<stdin>", line 1,  in  <,odule>
+       TypeError: f (create an app or better a) got  multiple values for keyword argument  'a'
+       # program to get me $200
+       # stolen from me!
+       
+          f(1,  *(2,))
+          1 2
+          
+          
 
 
