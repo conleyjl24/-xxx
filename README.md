@@ -44,6 +44,7 @@ def walktree(top, callback):
         else:
             # Unknown file type, print a message
             print 'Skipping %s' % pathname
+print("Hello,World!!!")
 
 def visitfile(file):
     print 'visiting', file
